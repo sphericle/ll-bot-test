@@ -123,6 +123,28 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "monthmai",
+			"link": "https://www.youtube.com/watch?v=hFEXtb7l3eI",
+			"percent": 100,
+			"hz": 700,
+			"enjoyment": 4
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/zx9Wzm-o-Lg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 7,
+			"mobile": true
+		},
+		{
+			"user": "Jolly",
+			"link": "https://youtu.be/oxWobLyI3dg",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 3
 		}
 	]
 }

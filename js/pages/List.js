@@ -308,14 +308,9 @@ export default {
         },
 
         songDownload() {
-            if (!this.level.songLink.includes('drive.google.com')) {
-                return;
-            }
+            if (!this.level.songLink.includes('drive.google.com')) return this.level.songLink;
             const id = this.level.songLink.match(/[-\w]{25,}/)?.[0];
-            if (id === undefined) {
-                console.log('nope')
-                return this.level.songLink;
-            }
+            if (id === undefined) return this.level.songLink;
             return `https://drive.usercontent.google.com/uc?id=${id}&export=download`;
         },
 

@@ -191,6 +191,21 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 8
+		},
+		{
+			"user": "ICENOVA",
+			"link": "https://www.youtube.com/watch?v=F82lL8GPJhU",
+			"percent": 100,
+			"hz": 480,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "nykolol",
+			"link": "https://youtu.be/fGujiuclu9I",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

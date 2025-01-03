@@ -15,14 +15,16 @@
 			"link": "https://youtu.be/Br0KlCET-bM",
 			"percent": 100,
 			"hz": 500,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "SarcasticMuch",
 			"link": "https://youtu.be/RTJ_dJxRD2A",
 			"percent": 100,
 			"hz": 144,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 8
 		},
 		{
 			"user": "sphericle",
@@ -30,63 +32,71 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
-			"enjoyment": 7
+			"enjoyment": 8
 		},
 		{
 			"user": "Raezori",
 			"link": "https://youtu.be/1vResbaUQkA",
 			"percent": 100,
 			"hz": 360,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "Mystikl",
 			"link": "https://youtu.be/3JTDK2yYohk",
 			"percent": 100,
 			"hz": 360,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 2
 		},
 		{
 			"user": "Riley",
 			"link": "https://youtu.be/ysANHYj56qs",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 7
 		},
 		{
 			"user": "Skip",
 			"link": "https://youtu.be/XsQFIzfrMxA",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 6
 		},
 		{
 			"user": "Tradeskill",
 			"link": "https://www.youtube.com/watch?v=9ekNcu19I-0",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 8
 		},
 		{
 			"user": "DeleteNine",
 			"link": "https://www.youtube.com/watch?v=VDzNWGfMp8k",
 			"percent": 100,
 			"hz": 360,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 9
 		},
 		{
 			"user": "Fallen",
 			"link": "https://youtu.be/6iPAXqSyGAM",
 			"percent": 100,
 			"hz": 240,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 10
 		},
 		{
 			"user": "Alvaneder",
 			"link": "https://www.youtube.com/watch?v=7-v22DzfcAQ",
 			"percent": 100,
 			"hz": 144,
-			"mobile": false
+			"mobile": false,
+			"enjoyment": 8
 		},
 		{
 			"user": "Syrcx",
@@ -94,7 +104,7 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
-			"enjoyment": 7
+			"enjoyment": 9
 		},
 		{
 			"user": "Hyperbeat",
@@ -136,5 +146,6 @@
 			"mobile": false,
 			"enjoyment": "4"
 		}
-	]
+	],
+	"enjoyment": 10
 }
