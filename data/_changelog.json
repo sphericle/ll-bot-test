@@ -25,41 +25,5 @@
 		"from_rank": null,
 		"above": "invincible",
 		"below": "tdadpflxo"
-	},
-	{
-		"date": 1735668516,
-		"action": "placed",
-		"name": "grueling_grotto",
-		"to_rank": 214,
-		"from_rank": null,
-		"above": "sn0wsucksatgd",
-		"below": "virtual"
-	},
-	{
-		"date": 1735668786,
-		"action": "placed",
-		"name": "barbarian",
-		"to_rank": 63,
-		"from_rank": null,
-		"above": "escaping_limbo",
-		"below": "_mythicallayouts"
-	},
-	{
-		"date": 1735668958,
-		"action": "placed",
-		"name": "saas",
-		"to_rank": 316,
-		"from_rank": null,
-		"above": "layout_master",
-		"below": "fluidity"
-	},
-	{
-		"date": 1735668964,
-		"action": "raised",
-		"name": "grueling_grotto",
-		"to_rank": 215,
-		"from_rank": 224,
-		"above": "sn0wsucksatgd",
-		"below": "virtual"
 	}
 ]
