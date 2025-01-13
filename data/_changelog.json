@@ -43,14 +43,5 @@
 		"from_rank": null,
 		"above": "achelous",
 		"below": null
-	},
-	{
-		"date": 1736806577,
-		"action": "placed",
-		"name": "switchward",
-		"to_rank": 5,
-		"from_rank": null,
-		"above": "project_e",
-		"below": "blacklight"
 	}
 ]
