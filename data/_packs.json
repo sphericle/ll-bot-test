@@ -2,7 +2,9 @@
 	{
 		"name": "Test Pack",
 		"difficulty": 0,
-		"levels": []
+		"levels": [
+			"brutal_calamity"
+		]
 	},
 	{
 		"name": "Chill Pack",
