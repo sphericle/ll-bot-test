@@ -61,5 +61,14 @@
 		"from_rank": 9,
 		"above": "project_e",
 		"below": "bloom"
+	},
+	{
+		"date": 1736893946,
+		"action": "lowered",
+		"name": "ochi_moi",
+		"to_rank": 20,
+		"from_rank": 6,
+		"above": "achelous",
+		"below": "experiment"
 	}
 ]
