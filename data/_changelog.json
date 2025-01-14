@@ -34,14 +34,5 @@
 		"from_rank": null,
 		"above": "sn0wsucksatgd",
 		"below": "virtual"
-	},
-	{
-		"date": 1736820363,
-		"action": "raised",
-		"name": "sailing_force",
-		"to_rank": 12,
-		"from_rank": 29,
-		"above": "rhyotic",
-		"below": "wipe_me_down"
 	}
 ]
