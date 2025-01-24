@@ -218,13 +218,6 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
-		},
-		{
-			"user": "sphericle",
-			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
-			"percent": 100,
-			"hz": 240,
-			"enjoyment": 6
 		}
 	]
 }
