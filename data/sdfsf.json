@@ -9,5 +9,12 @@
 	"password": "Free to copy",
 	"difficulty": 1,
 	"song": "sdfsdfsdf",
-	"records" : []
+	"records": [
+		{
+			"user": "lskdjflskdfjlskdjflsdkjf",
+			"link": "https://hai.com",
+			"percent": 11,
+			"hz": 123
+		}
+	]
 }
