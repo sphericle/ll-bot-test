@@ -1,0 +1,20 @@
+{
+	"id": 1,
+	"name": "sdfsf",
+	"author": "fart",
+	"creators": [],
+	"verifier": "sdfsdfsdf",
+	"verification": "https://youtube.com",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 1,
+	"song": "sdfsdfsdf",
+	"records": [
+		{
+			"user": "lskdjflskdfjlskdjflsdkjf",
+			"link": "https://hai.com",
+			"percent": 11,
+			"hz": 123
+		}
+	]
+}
