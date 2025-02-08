@@ -15,7 +15,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
-			"enjoyment": "8"
+			"enjoyment": 8
 		},
 		{
 			"user": "Xeronius",
@@ -23,7 +23,7 @@
 			"percent": 100,
 			"hz": 75,
 			"mobile": false,
-			"enjoyment": "8"
+			"enjoyment": 8
 		},
 		{
 			"user": "DJJDK",
@@ -31,7 +31,7 @@
 			"percent": 100,
 			"hz": 600,
 			"mobile": false,
-			"enjoyment": "9"
+			"enjoyment": 9
 		},
 		{
 			"user": "xanyx",

@@ -70,7 +70,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
-			"enjoyment": "8"
+			"enjoyment": 8
 		},
 		{
 			"user": "edu",
@@ -85,7 +85,7 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
-			"enjoyment": "6"
+			"enjoyment": 6
 		},
 		{
 			"user": "evil",
