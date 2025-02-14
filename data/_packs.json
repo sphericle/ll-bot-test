@@ -2,7 +2,8 @@
 	{
 		"name": "Test Pack",
 		"difficulty": 0,
-		"levels": []
+		"levels": [],
+		"ogIndex": 0
 	},
 	{
 		"name": "Chill Pack",
@@ -12,7 +13,8 @@
 			"foggy_bridge",
 			"wewo",
 			"florescent"
-		]
+		],
+		"ogIndex": 1
 	},
 	{
 		"name": "Salukis Pack",
@@ -23,7 +25,8 @@
 			"debit",
 			"caliber",
 			"uppercut"
-		]
+		],
+		"ogIndex": 2
 	},
 	{
 		"name": "Rated Pack 1",
@@ -33,7 +36,8 @@
 			"gravity_out",
 			"adapation",
 			"time_shell"
-		]
+		],
+		"ogIndex": 3
 	},
 	{
 		"name": "Asteria Pack",
@@ -42,7 +46,8 @@
 			"sky_castle",
 			"the_shredder",
 			"land_of_fire_ato"
-		]
+		],
+		"ogIndex": 4
 	},
 	{
 		"name": "Xeronius Pack",
@@ -53,7 +58,8 @@
 			"cove",
 			"get_funked",
 			"dramatic"
-		]
+		],
+		"ogIndex": 5
 	},
 	{
 		"name": "Rated Pack 2",
@@ -64,7 +70,8 @@
 			"outlay",
 			"dancing_moonman",
 			"havoc"
-		]
+		],
+		"ogIndex": 6
 	},
 	{
 		"name": "Shums Pack",
@@ -75,7 +82,8 @@
 			"spacious",
 			"legends_never_die",
 			"message_in_a_bottle"
-		]
+		],
+		"ogIndex": 7
 	},
 	{
 		"name": "Quacker Pack",
@@ -84,7 +92,8 @@
 			"druggered_duck",
 			"drugged_duck",
 			"fearful_duckling"
-		]
+		],
+		"ogIndex": 8
 	},
 	{
 		"name": "Detailed Pack 1",
@@ -93,7 +102,8 @@
 			"go_with_the_flow",
 			"fire_wal",
 			"bufu"
-		]
+		],
+		"ogIndex": 9
 	},
 	{
 		"name": "Sqrtpie Pack",
@@ -102,7 +112,8 @@
 			"because_we_miss",
 			"layout_master",
 			"vulture"
-		]
+		],
+		"ogIndex": 10
 	},
 	{
 		"name": "Effect Pack",
@@ -112,7 +123,8 @@
 			"i_got_no_time",
 			"the_end",
 			"michito"
-		]
+		],
+		"ogIndex": 11
 	},
 	{
 		"name": "Long Pack 1",
@@ -121,7 +133,8 @@
 			"heartache",
 			"ruler_of_everything",
 			"dancing_in_the_dark"
-		]
+		],
+		"ogIndex": 12
 	},
 	{
 		"name": "Time Pack",
@@ -130,7 +143,8 @@
 			"4am",
 			"0am",
 			"6pm"
-		]
+		],
+		"ogIndex": 13
 	},
 	{
 		"name": "Azakl Pack",
@@ -139,7 +153,8 @@
 			"00darkside",
 			"smooktober",
 			"malevolence"
-		]
+		],
+		"ogIndex": 14
 	},
 	{
 		"name": "Detailed Pack 2",
@@ -149,7 +164,8 @@
 			"to_the_moon",
 			"heartbreaker",
 			"freeze_flame"
-		]
+		],
+		"ogIndex": 15
 	},
 	{
 		"name": "Rated Pack 3",
@@ -159,7 +175,8 @@
 			"rgb",
 			"aleph_0",
 			"i_dont_wanna_go"
-		]
+		],
+		"ogIndex": 16
 	},
 	{
 		"name": "Morsey Pack",
@@ -170,7 +187,8 @@
 			"virtual",
 			"nautilus",
 			"lies_layout"
-		]
+		],
+		"ogIndex": 17
 	},
 	{
 		"name": "Sal Pack",
@@ -180,7 +198,8 @@
 			"atmosphere",
 			"aura",
 			"aurora_sal"
-		]
+		],
+		"ogIndex": 18
 	},
 	{
 		"name": "Box Pack",
@@ -189,7 +208,8 @@
 			"dabox",
 			"bajox",
 			"jabox"
-		]
+		],
+		"ogIndex": 19
 	},
 	{
 		"name": "Blathers Pack",
@@ -198,7 +218,8 @@
 			"kitty_kat",
 			"lightmare",
 			"alpha_b"
-		]
+		],
+		"ogIndex": 20
 	},
 	{
 		"name": "Detailed Pack 3",
@@ -208,7 +229,8 @@
 			"last_chapter",
 			"heat_stroke",
 			"tormenta"
-		]
+		],
+		"ogIndex": 21
 	},
 	{
 		"name": "Adventure Pack",
@@ -217,7 +239,8 @@
 			"distant_stars",
 			"next_adventure",
 			"sudden_departure"
-		]
+		],
+		"ogIndex": 22
 	},
 	{
 		"name": "Angryface Pack",
@@ -226,7 +249,8 @@
 			"shizukana",
 			"rupture",
 			"svalbard"
-		]
+		],
+		"ogIndex": 23
 	},
 	{
 		"name": "Long Pack 2",
@@ -236,7 +260,8 @@
 			"nana",
 			"underlying_grief",
 			"escaping_limbo"
-		]
+		],
+		"ogIndex": 24
 	},
 	{
 		"name": "Short Pack",
@@ -245,7 +270,8 @@
 			"big_brain_time",
 			"yoasobi",
 			"vile_vanquish"
-		]
+		],
+		"ogIndex": 25
 	},
 	{
 		"name": "Flare Pack",
@@ -254,7 +280,8 @@
 			"rubber",
 			"murder_flare",
 			"phase"
-		]
+		],
+		"ogIndex": 26
 	},
 	{
 		"name": "Long Pack 3",
@@ -263,7 +290,8 @@
 			"light_it_up",
 			"cruelty_of_hope",
 			"karma"
-		]
+		],
+		"ogIndex": 27
 	},
 	{
 		"name": "zDark Verification Pack",
@@ -272,7 +300,8 @@
 			"lost",
 			"tails_doll_007",
 			"so_based"
-		]
+		],
+		"ogIndex": 28
 	},
 	{
 		"name": "Former Top 1s Pack",
@@ -281,38 +310,47 @@
 			"brutal_calamity",
 			"huang_quan",
 			"experiment"
-		]
+		],
+		"ogIndex": 29
 	},
 	{
 		"name": "Beginner Pack",
-		"difficulty": 0
+		"difficulty": 0,
+		"ogIndex": 30
 	},
 	{
 		"name": "Easy Pack",
-		"difficulty": 1
+		"difficulty": 1,
+		"ogIndex": 31
 	},
 	{
 		"name": "Medium Pack",
-		"difficulty": 2
+		"difficulty": 2,
+		"ogIndex": 32
 	},
 	{
 		"name": "Hard Pack",
-		"difficulty": 3
+		"difficulty": 3,
+		"ogIndex": 33
 	},
 	{
 		"name": "Insane Pack",
-		"difficulty": 4
+		"difficulty": 4,
+		"ogIndex": 34
 	},
 	{
 		"name": "Mythical Pack",
-		"difficulty": 5
+		"difficulty": 5,
+		"ogIndex": 35
 	},
 	{
 		"name": "Extreme Pack",
-		"difficulty": 6
+		"difficulty": 6,
+		"ogIndex": 36
 	},
 	{
 		"name": "Legendary Pack",
-		"difficulty": 7
+		"difficulty": 7,
+		"ogIndex": 37
 	}
 ]
