@@ -1,8 +1,9 @@
 {
 	"id": 87111461,
 	"name": "Aurora",
-	"author": "agentgiscool",
-	"creators": [],
+	"creators": [
+		"agentgiscool"
+	],
 	"verifier": "agentgiscool",
 	"verification": "https://youtu.be/WNRWz60rI2U",
 	"percentToQualify": 100,
@@ -36,6 +37,13 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Jb2cdCuxlh0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
 		},
 		{
 			"user": "Paladean",
@@ -243,6 +251,20 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 5
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

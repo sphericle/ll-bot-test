@@ -1,8 +1,9 @@
 {
 	"id": 100099891,
 	"name": "love letter",
-	"author": "tanginess",
-	"creators": [],
+	"creators": [
+		"tanginess"
+	],
 	"verifier": "tanginess",
 	"verification": "https://www.youtube.com/watch?v=6YuDRI1-sfY",
 	"percentToQualify": 100,
@@ -102,6 +103,13 @@
 			"enjoyment": 9
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/FaPxpBLuXXE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
 			"user": "Spaace",
 			"link": "https://www.youtube.com/watch?v=rTrP4MuPnsc",
 			"percent": 100,
@@ -132,6 +140,20 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://youtu.be/o28Ray-DXMg",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		},
+		{
+			"user": "sqrtpie",
+			"link": "https://youtube.com/shorts/iYOkmLPpVa4?feature=share",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

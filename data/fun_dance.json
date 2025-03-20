@@ -1,8 +1,9 @@
 {
 	"id": 64144455,
 	"name": "Fun Dance ⭐",
-	"author": "PulsefireGD",
-	"creators": [],
+	"creators": [
+		"PulsefireGD"
+	],
 	"verifier": "PulsefireGD",
 	"verification": "https://youtu.be/fNiR6cOpQME",
 	"showcase": "https://www.youtube.com/watch?v=l0pJbzHc1rw&ab_channel=LayoutListShowcases",
@@ -549,6 +550,13 @@
 			"percent": 100,
 			"hz": 120,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/2muwLrQSkgU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		},
 		{
 			"user": "SinSnrGD",
@@ -1182,6 +1190,35 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/AYb2TeQV0eI",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/z4rK1TnuJCw",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/scmt6Foafvo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/Quj75Xzaqlw?si=7bm5qC2gvr9cDGv7",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }

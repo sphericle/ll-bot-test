@@ -1,8 +1,9 @@
 {
 	"id": 85489690,
 	"name": "TDADPFLXO",
-	"author": "Nooob07",
-	"creators": [],
+	"creators": [
+		"Nooob07"
+	],
 	"verifier": "Nooob07",
 	"verification": "https://www.youtube.com/watch?v=EM7Rfva_QPA",
 	"percentToQualify": 100,
@@ -154,6 +155,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jAXSaP9oAX0TNzfRG?invite=cr-MSxON24sMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }

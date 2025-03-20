@@ -1,8 +1,9 @@
 {
 	"id": 94217791,
 	"name": "In Circles Layout",
-	"author": "EmeraldOre",
-	"creators": [],
+	"creators": [
+		"EmeraldOre"
+	],
 	"verifier": "EmeraldOre",
 	"verification": "https://youtu.be/WusHHahEies?si=tKJv8J2-4lXMKD7P",
 	"percentToQualify": 100,
@@ -255,6 +256,41 @@
 			"link": "https://medal.tv/games/geometry-dash/clips/jbCMaSSiPaiBVh8gl?invite=cr-MSxUdjYsMjEyMTU0NjM2LA",
 			"percent": 100,
 			"hz": 165,
+			"enjoyment": 9
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
+		},
+		{
+			"user": "zaiah23",
+			"link": "https://youtu.be/VY8opvjYBNM?si=9XghQL87_96k9PnL",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 9
 		}
 	]

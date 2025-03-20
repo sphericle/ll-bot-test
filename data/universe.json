@@ -1,8 +1,9 @@
 {
 	"id": 89656819,
 	"name": "Universe",
-	"author": "SarcasticMuch",
-	"creators": [],
+	"creators": [
+		"SarcasticMuch"
+	],
 	"verifier": "SarcasticMuch",
 	"verification": "https://youtu.be/-NBzYDOI9cc",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 91204229,
 	"name": "gold layout",
-	"author": "morsey",
-	"creators": [],
+	"creators": [
+		"morsey"
+	],
 	"verifier": "morsey",
 	"verification": "https://youtu.be/lJk5iA1qqy4",
 	"percentToQualify": 100,

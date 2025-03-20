@@ -1,8 +1,9 @@
 {
 	"id": 67508320,
 	"name": "Wewo",
-	"author": "Chromanical",
-	"creators": [],
+	"creators": [
+		"Chromanical"
+	],
 	"verifier": "Chromanical",
 	"verification": "https://youtu.be/XRl1CXm-fas",
 	"percentToQualify": 100,
@@ -164,6 +165,14 @@
 			"mobile": true
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ZQKyVQW5LN8",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/bHpN3SpSQNc",
 			"percent": 100,
@@ -320,6 +329,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
 		}
 	]
 }

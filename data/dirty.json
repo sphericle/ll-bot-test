@@ -1,8 +1,9 @@
 {
 	"id": 72824511,
 	"name": "Dirty ✨",
-	"author": "Midgetapple01",
-	"creators": [],
+	"creators": [
+		"Midgetapple01"
+	],
 	"verifier": "ZBosGaming",
 	"verification": "https://youtu.be/T1KjFkVbj_g",
 	"showcase": "https://www.youtube.com/watch?v=RL2Z6Mro9Ws",
@@ -162,6 +163,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https://www.youtube.com/live/IZWqUChIEjc?si=_sO7li_7L_sAlcK-",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

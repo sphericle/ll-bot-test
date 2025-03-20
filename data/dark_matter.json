@@ -1,8 +1,8 @@
 {
 	"id": 61133016,
 	"name": "Dark Matter Layout",
-	"author": "Aconn",
 	"creators": [
+		"Aconn",
 		"Natteboss"
 	],
 	"verifier": "Natteboss",
@@ -177,6 +177,13 @@
 			"link": "https://youtu.be/mFFx65nYasQ",
 			"percent": 100,
 			"hz": 240,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/HawMG6reB3A",
+			"percent": 100,
+			"hz": 360,
 			"mobile": false
 		},
 		{
@@ -372,6 +379,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 9
 		}
 	]
 }

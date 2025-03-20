@@ -148,26 +148,6 @@ export async function fetchLeaderboard(list) {
             return;
         }
 
-        // Author
-        const author = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.author.toLowerCase(),
-        ) || level.author;
-        scoreMap[author] ??= {
-            created: [],
-            verified: [],
-            completed: [],
-            progressed: [],
-            userPacks: [],
-            flag: flags[level.author]
-        };
-
-        const { created } = scoreMap[author];
-        created.push({
-            rank,
-            level: level.name,
-            link: level.verification,
-        });
-
         // Creators
         level.creators.forEach((person) => {
             const creator = Object.keys(scoreMap).find(
@@ -183,9 +163,9 @@ export async function fetchLeaderboard(list) {
             };
             const { created } = scoreMap[creator];
             created.push({
-            rank,
-            level: level.name,
-            link: level.verification,
+                rank,
+                level: level.name,
+                link: level.verification,
             });
         });
         
@@ -580,7 +560,11 @@ export function averageEnjoyment(records) {
     if (validRecordsCount === 0) return "?"; // handle case with no valid enjoyment values
 
     const average = total / validRecordsCount;
-    return round(average, 3);
+    const result = round(average, 3)
+    if (isNaN(result) || result === null) {
+        return "?";
+    }
+    return result;
 }
 
 export function fetchTierLength(list, difficulty) {

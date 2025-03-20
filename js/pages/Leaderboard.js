@@ -4,9 +4,10 @@ import { lightPackColor, darkPackColor } from '../config.js';
 import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
+import Scroll from '../components/Scroll.js'
 
 export default {
-    components: { Spinner, Copy, Copied },
+    components: { Spinner, Copy, Copied, Scroll },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
@@ -29,13 +30,23 @@ export default {
                     </p>
                 </div>
                 <div class="board-container">
-                    <input
-                        type="text"
-                        class="search" 
-                        id="search-bar"
-                        placeholder="Search..."
-                        v-model="searchQuery"
-                    />
+                    <div class="search-container">
+                        <input
+                            type="text"
+                            class="search"
+                            id="search-bar"
+                            placeholder="Search..."
+                            v-model="searchQuery"
+                        />
+                        <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search x-lb">x</button>
+                    </div>
+                    <div class="button-bar" style="padding-left: 2.5rem;" :class="store.dark ? 'dark' : ''">
+                        <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
+                        <select v-model="selectedNation">
+                            <option :value="null">All nations</option>
+                            <option v-for="flag in Object.keys(flagMap)" :value="flag">{{ flagMap[flag] }}</option>
+                        </select>
+                    </div>
                     <table class="board" v-if="filteredLeaderboard.length > 0">
                         <tr v-for="({ entry: ientry, index }, i) in filteredLeaderboard" :key="index">
                             <td class="rank">
@@ -45,7 +56,7 @@ export default {
                                 <p class="type-label-lg" v-if="ientry.total > 0">{{ localize(ientry.total) }}</p>
                                 <p class="type-label-lg" v-if="ientry.total == 0">{{ "—" }}</p> 
                             </td>
-                            <td class="user" :class="{ 'active': selected == index }">
+                            <td class="user" :class="{ 'active': selected == index }" :ref="selected == index ? 'selected' : undefined">
                                 <button @click="selected = index; copied = false;">
                                     <span class="type-label-lg">{{ ientry.user }}</span>
                                 </button>
@@ -82,7 +93,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                             </tr>
                         </table>
@@ -94,7 +105,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
@@ -109,7 +120,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
                                 <td class="score">
                                     <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
@@ -131,7 +142,7 @@ export default {
                                     <p v-else>#{{ score.rank }}</p>
                                 </td>
                                 <td class="level">
-                                    <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
+                                    <a class="director" class="type-label-lg" target="_blank" :href="score.link">{{ score.level }} - {{ score.percent }}%</a>
                                 </td>
                                 <td class="score">
                                     <img v-if="score.mobile" :src="'/assets/phone-landscape' + (store.dark ? '-dark' : '') + '.svg'" alt="Mobile">
@@ -160,6 +171,8 @@ export default {
         store,
         searchQuery: '',
         copied: false,
+        selectedNation: null,
+        flags: {}
     }),
 
     methods: {
@@ -180,6 +193,14 @@ export default {
                     console.log(this.notFound)
                 }
             }
+        },
+        scrollToSelected() {
+            this.$nextTick(() => {
+                const selectedElement = this.$refs.selected;
+                if (selectedElement && selectedElement[0] && selectedElement[0].firstChild) {
+                    selectedElement[selectedElement.length - 1].firstChild.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
         }
     },
 
@@ -189,17 +210,14 @@ export default {
         },
 
         filteredLeaderboard() {
-            if (!this.searchQuery.trim()) {
-                return this.leaderboard.map((entry, index) => ({ index, entry }));
-            }
-    
             const query = this.searchQuery.toLowerCase().replace(/\s/g, '');
     
             // Map each entry with its original index and filter based on the user name
             return this.leaderboard
                 .map((entry, index) => ({ index, entry }))
                 .filter(({ entry }) =>
-                    entry.user.toLowerCase().includes(query)
+                    (this.searchQuery.trim() ? entry.user.toLowerCase().includes(query) : true) &&
+                    (this.selectedNation ? entry.flag === this.selectedNation : true)
                 );
         },
     },
@@ -209,6 +227,20 @@ export default {
         const [leaderboard, err] = this.store.leaderboard;
         this.leaderboard = leaderboard;
         this.err = err;
+
+        this.flags = await fetch("../../data/_flags.json")
+            .then(async (res) => await res.json())
+        this.flagMap = await fetch("../../data/_flagMap.json")
+            .then(async (res) => await res.json())
+        
+        var ret = {};
+        for (var key in this.flagMap) {
+            ret[this.flagMap[key]] = key;
+        }
+
+        this.flagMap = Object.fromEntries(
+            Object.entries(ret).filter(([key, value]) => Object.values(this.flags).includes(key))
+        );
         
         this.selectFromParam()
 

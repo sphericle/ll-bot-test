@@ -1,8 +1,9 @@
 {
 	"id": 88831352,
 	"name": "Debit Card Fraud",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/r1OlWqbeKl4",
 	"percentToQualify": 100,
@@ -48,6 +49,13 @@
 		{
 			"user": "Skybolt06",
 			"link": "https://youtu.be/r3wAAE7aEMg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/2EUiSurkLOc",
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
@@ -351,6 +359,27 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/08zcy6lcZuw?si=8SYOEM5B-O9INSgf",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/474IkL7h3vU",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 7
 		}
 	]

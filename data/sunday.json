@@ -1,8 +1,9 @@
 {
 	"id": 87598000,
 	"name": "Sunday",
-	"author": "ThisGuyKreas",
-	"creators": [],
+	"creators": [
+		"ThisGuyKreas"
+	],
 	"verifier": "ThisGuyKreas",
 	"verification": "https://youtu.be/700O9l1uzpg",
 	"percentToQualify": 100,

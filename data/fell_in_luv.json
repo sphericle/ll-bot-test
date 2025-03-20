@@ -1,8 +1,8 @@
 {
 	"id": 100871941,
 	"name": "fell in luv",
-	"author": "Flare",
 	"creators": [
+		"Flare",
 		"DJJDK"
 	],
 	"verifier": "zDark",
@@ -41,6 +41,14 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=F5BCfyMJXRE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		},
 		{
 			"user": "Mystikl",

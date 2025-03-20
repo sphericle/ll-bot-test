@@ -1,8 +1,9 @@
 {
 	"id": 98907095,
 	"name": "Midnight Chromedrive",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://www.youtube.com/watch?v=8BKVSfeDlf0",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 97147316,
 	"name": "What You Love",
-	"author": "ThisGuyKreas",
-	"creators": [],
+	"creators": [
+		"ThisGuyKreas"
+	],
 	"verifier": "ThisGuyKreas",
 	"verification": "https://youtu.be/SnigW3NS4QQ",
 	"percentToQualify": 100,

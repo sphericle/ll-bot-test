@@ -1,8 +1,9 @@
 {
 	"id": 72939164,
 	"name": "Artificial",
-	"author": "matt843",
-	"creators": [],
+	"creators": [
+		"matt843"
+	],
 	"verifier": "matt843",
 	"verification": "https://youtu.be/7gX7qEBa9jo",
 	"percentToQualify": 100,
@@ -967,6 +968,14 @@
 			"enjoyment": 8
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/FaPxpBLuXXE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
 			"user": "Tanginess",
 			"link": "https://www.youtube.com/watch?v=6TgU0-RXqzM",
 			"percent": 100,
@@ -1052,6 +1061,87 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "Z3pH4x",
+			"link": "https://youtu.be/BvKl6l-S-Ls?si=nOgZXdsTZr7OHU7w",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Cowdoom11",
+			"link": "https://youtu.be/eZTFZ6U2Ois",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 3
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=0VFLoDqxbHk&ab_channel=emberkz",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "LuminGMD",
+			"link": "https://youtu.be/p3mTKFftxWY",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/Xk08bjdSpfw",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/Rl3LIezVF80",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/BTbDt5PDqPc",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/qPTt6EPYhq4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/wyZimw98qzU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Mayuviqq",
+			"link": "https://youtu.be/W5UflhgjGq0?si=YR424UOnzAJTtUJb",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 9
 		}
 	]
 }

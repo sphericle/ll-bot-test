@@ -1,8 +1,9 @@
 {
 	"id": 79266695,
 	"name": "Sunrise",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/-GMisNSqN5s",
 	"percentToQualify": 100,
@@ -250,6 +251,13 @@
 		{
 			"user": "Skybolt06",
 			"link": "https://youtu.be/r3wAAE7aEMg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ufhNyCtuLJc",
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
@@ -567,6 +575,34 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/9J6E2BNXBTo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/hX96afAeiWE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

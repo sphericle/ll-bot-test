@@ -1,8 +1,9 @@
 {
 	"id": 110839027,
 	"name": "Golden Hour",
-	"author": "Shums",
-	"creators": [],
+	"creators": [
+		"Shums"
+	],
 	"verifier": "Shums",
 	"verification": "https://www.youtube.com/watch?v=TjJ6AYfkXGI",
 	"percentToQualify": 100,
@@ -72,6 +73,35 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 4
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/J1t5f31ib-Q",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
 		}
 	]
 }

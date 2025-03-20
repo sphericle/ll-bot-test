@@ -1,8 +1,9 @@
 {
 	"id": 102439813,
 	"name": "OMFG",
-	"author": "monthmai",
-	"creators": [],
+	"creators": [
+		"monthmai"
+	],
 	"verifier": "monthmai",
 	"verification": "https://www.youtube.com/watch?v=-a2ukWpkMa0",
 	"percentToQualify": 100,
@@ -78,6 +79,12 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "sans_hanitizer",
+			"link": "https://www.youtube.com/watch?v=4yg6BMwRCcs",
+			"percent": 100,
+			"hz": 240
 		}
 	]
 }

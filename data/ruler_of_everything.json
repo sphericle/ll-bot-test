@@ -1,8 +1,9 @@
 {
 	"id": 72202989,
 	"name": "Ruler of Everything",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "xtyles",
 	"verification": "https://youtu.be/6LSr7uKA_0s",
 	"showcase": "https://www.youtube.com/watch?v=zdF5_z_isPQ&ab_channel=LayoutListShowcases",

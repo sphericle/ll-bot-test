@@ -1,8 +1,9 @@
 {
 	"id": 86404418,
 	"name": "Mindless Layout",
-	"author": "morsey",
-	"creators": [],
+	"creators": [
+		"morsey"
+	],
 	"verifier": "morsey",
 	"verification": "https://www.youtube.com/watch?v=lrTiyF0qGH0",
 	"showcase": "https://www.youtube.com/watch?v=TXqf4CLkkWY",

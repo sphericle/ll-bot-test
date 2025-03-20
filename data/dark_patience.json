@@ -1,8 +1,9 @@
 {
 	"id": 57402376,
 	"name": "Dark Patience",
-	"author": "KitsuneEdu",
-	"creators": [],
+	"creators": [
+		"KitsuneEdu"
+	],
 	"verifier": "KitsuneEdu",
 	"verification": "https://youtu.be/EMw8_daMLTU",
 	"percentToQualify": 100,

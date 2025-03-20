@@ -1,8 +1,9 @@
 {
 	"id": 82141647,
 	"name": "Gravity Out ⭐",
-	"author": "GDTicLos",
-	"creators": [],
+	"creators": [
+		"GDTicLos"
+	],
 	"verifier": "GDTicLos",
 	"verification": "https://youtu.be/aUIunu5KIzI",
 	"percentToQualify": 100,
@@ -165,6 +166,13 @@
 		{
 			"user": "Skybolt06",
 			"link": "https://youtu.be/r3wAAE7aEMg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ufhNyCtuLJc",
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
@@ -603,6 +611,35 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/1nbaEHjVeAk",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/72Ym0lpuvLU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/XAqMGpFSblo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

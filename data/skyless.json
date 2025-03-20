@@ -1,8 +1,9 @@
 {
 	"id": 80616815,
 	"name": "Skyless",
-	"author": "Gr8ness",
-	"creators": [],
+	"creators": [
+		"Gr8ness"
+	],
 	"verifier": "Gr8ness",
 	"verification": "https://youtu.be/seNuv1mQ7U8?si=RbZuGWaYdekuy2om",
 	"percentToQualify": 100,

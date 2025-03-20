@@ -1,8 +1,9 @@
 {
 	"id": 104467214,
 	"name": "Toronto",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/T27DvLpwk68?feature=shared",
 	"percentToQualify": 100,
@@ -122,12 +123,34 @@
 			"enjoyment": 10
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
 			"user": "josikp",
 			"link": "https://www.youtube.com/watch?v=Cli3zUT_6Ao",
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/-PJFOgRoGcU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
 		}
 	]
 }

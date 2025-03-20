@@ -1,8 +1,8 @@
 {
 	"id": 79208265,
 	"name": "I G0T N0 TIME",
-	"author": "the4n1ma",
 	"creators": [
+		"the4n1ma",
 		"Pr0ramon",
 		"Georgy"
 	],
@@ -82,6 +82,14 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/8i8R0SaVdUU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		},
 		{
 			"user": "DeleteNine",

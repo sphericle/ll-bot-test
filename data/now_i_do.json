@@ -1,8 +1,9 @@
 {
 	"id": 79246271,
 	"name": "NOW I DO",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Solo12",
 	"verification": "https://youtu.be/BKzVUgpIGVg",
 	"percentToQualify": 100,
@@ -160,6 +161,12 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Salukis",
+			"link": "https://youtu.be/FfUEro6DRGA",
+			"percent": 100,
+			"hz": 144
 		}
 	]
 }

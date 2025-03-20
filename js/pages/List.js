@@ -6,6 +6,7 @@ import Spinner from '../components/Spinner.js';
 import Copy from '../components/Copy.js'
 import Copied from '../components/Copied.js'
 import LevelAuthors from '../components/List/LevelAuthors.js';
+import Scroll from '../components/Scroll.js'
 
 const roleIconMap = {
     owner: 'crown',
@@ -15,30 +16,41 @@ const roleIconMap = {
     trial: 'user-lock',
 };
 
-
 export default {
-    components: { Spinner, LevelAuthors, Copy, Copied },
+    components: { Spinner, LevelAuthors, Copy, Copied, Scroll },
     template: `
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
         <div class="list-container">
-            <input
-            type="text"
-            class="search"
-            id="search-bar"
-            placeholder="Search..."
-            v-model="searchQuery"
-            />
+            <div class="search-container">
+                <input
+                    type="text"
+                    class="search"
+                    id="search-bar"
+                    placeholder="Search..."
+                    v-model="searchQuery"
+                />
+                <button v-if="searchQuery" @click="searchQuery = ''" class="clear-search">x</button>
+            </div>
+            <div class="button-bar" :class="store.dark ? 'dark' : ''">
+                <Scroll alt="Scroll to selected" @click="scrollToSelected()" />
+                <select v-model="sortOption">
+                    <option value="0">Ranking</option>
+                    <option value="1">Enjoyment</option>
+                    <option value="2">Popularity</option>
+                </select>
+                <p style="font-size: 9.5px; opacity: 30%;"@click="descending = !descending">{{ descending === true ? 'Descending' : 'Ascending' }}</p>
+            </div>
             <table class="list" v-if="filteredLevels.length > 0">
                 <tr v-for="({ item: [err, rank, level], index }, i) in filteredLevels" :key="index">
                     <td class="rank">
                         <p v-if="rank === null" class="type-label-lg" style="width:2.7rem">&mdash;</p>
                         <p v-else class="type-label-lg" style="width:2.7rem">#{{ rank }}</p>
                     </td>
-                    <td class="level" :class="{ 'active': selected == index, 'error': err !== null }">
-                        <button @click="selected = index; copied = false">
+                    <td class="level" :class="{ 'active': selected == index, 'error': err !== null }" :ref="selected == index ? 'selected' : undefined">
+                        <button @click="selected = index; copied = false;">
                             <span class="type-label-lg">{{ level?.name || 'Error (' + err + '.json)' }}</span>
                         </button>
                     </td>
@@ -58,7 +70,7 @@ export default {
                     <div class="pack-container" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels">
                         <a class="pack" v-for="pack in level.packs" :style="{ 'background': store.dark ? rgbaBind(darkPackColor(pack.difficulty), 0.2) : rgbaBind(lightPackColor(pack.difficulty), 0.3), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
                     </div>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
+                    <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
                     <h3>Difficulty: {{["Beginner", "Easy", "Medium", "Hard", "Insane", "Mythical", "Extreme", "Supreme", "Ethereal", "Legendary", "Silent", "Impossible"][level.difficulty]}} layout</h3>
                     <div v-if="level.showcase" class="tabs">
                         <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
@@ -76,7 +88,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
+                            <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
@@ -89,9 +101,8 @@ export default {
                     </ul>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Song</div>
-
-                            <p v-if="level.songLink"><a target="_blank" :href="songDownload" style="text-decoration: underline">{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
+                            <div class="type-title-sm">{{ level.songLink ? "NONG" : "Song" }}</div>
+                            <p class="director" v-if="level.songLink"><a target="_blank" :href="songDownload" >{{ level.song || 'Song missing, please alert a list mod!' }}</a></p>
                             <p v-else>{{ level.song || 'Song missing, please alert a list mod!' }}</p>
                         </li>
                     </ul>
@@ -104,7 +115,7 @@ export default {
                             </td>
                             <td class="user">
                                 <div class="user-container">
-                                    <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                    <a :href="record.link" target="_blank" class="type-label-lg director">{{ record.user }}</a>
                                     <img class="flag" v-if="record.flag" :src="'https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/' + (record.flag.toLowerCase()) + '.svg'" alt="flag">
                                 </div>
                             </td>
@@ -131,7 +142,9 @@ export default {
                     <tr style="justify-content: center; align-items: center;">
                         <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
                     </tr>
-                    <p style="padding-top:1.5rem">The levels below are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
+                    <p style="padding-top:1.5rem">The levels {{ descending ? 'below' : 'above' }} are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
+
+                    <h3 v-if="level.difficulty > 5" style="padding-top:1.5rem"><a href="https://docs.google.com/spreadsheets/d/1tgwlKJpFMC2lEK8XjFPyKGP1-JJ0z2t6GsvCyojEeCw/">sn0w's extreme spreadsheet</a></h3>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
@@ -143,7 +156,7 @@ export default {
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
                     <div class="og">
-                        <p class="type-label-md">Some of website layout made by <a href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>, Layout List originally created by DJ JDK & Blathers.</p>
+                        <p class="type-label-md">Some of website template from <a class="director" href="https://tsl.pages.dev/" target="_blank">The Shitty List</a>; Layout List originally created by <a class="director" href="https://www.youtube.com/@DJJDK" target="_blank">DJ JDK</a> & <a class="director" href="https://www.youtube.com/@Blathers" target="_blank">Blathers</a>.</p>
                     </div>
                     <hr class="divider">
                     <template v-if="staff">
@@ -151,20 +164,22 @@ export default {
                         <ol class="staff">
                             <li v-for="editor in staff">
                                 <img :src="'/assets/' + roleIconMap[editor.role] + (store.dark ? '-dark' : '') + '.svg'" :alt="editor.role">
-                                <a class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <a class="type-label-lg link director" target="_blank" :href="editor.link">{{ editor.name }}</a>
                             </li>
                         </ol>
                     </template>
+
                     <hr class="divider">
+
                     <h3>Tags</h3>
-
-                    <p style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
-                    <p style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
-                    <p style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
-                    <p style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
-                    <p style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
+                    <p class="director" style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
+                    <p class="director" style="cursor:pointer;" @click="search('✨')">✨ Subject to Exemptions</p>
+                    <p class="director" style="cursor:pointer;" @click="search('💫')">💫 Accepted Under Old Standards</p>
+                    <p class="director" style="cursor:pointer;" @click="search('🎖️')">🎖️ Creator Contest Winner</p>
+                    <p class="director" style="cursor:pointer;" @click="search('❌')">❌ Pending Removal</p>
 
                     <hr class="divider">
+
                     <h3>Record Submission Requirements</h3>
                     <div class="right-text">
                         <p>
@@ -174,7 +189,7 @@ export default {
                             You must have achieved the record on the level that is listed on the site or on an approved bugfixed copy - please check the level ID before you submit a record!
                         </p>
                         <p>
-                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). Edited audio does not count.
+                            Records for Easy+ completions must have clicks or visual tap indication (source audio is acceptable for iPhone users). This does not include mods that add artificial click sounds.
                         </p>
                         <p>
                             Complete raw footage is required alongside your record for any layouts in Extreme Tier or above.
@@ -196,7 +211,7 @@ export default {
                     <h3>Difficulty Rankings</h3>
                     <div class="right-text">
                         <p>
-                            Impossible Layout = Top Extreme Demons (401 to 750 Points)
+                            Silent Layout = Top Extreme Demons (401 to 750 Points)
                         </p>
                         <p>
                             Legendary Layout = Mid Extreme Demons (201 to 400 Points)
@@ -254,6 +269,8 @@ export default {
         store,
         searchQuery: '',
         copied: false,
+        sortOption: 0,
+        descending: true
     }),
 
     methods: {
@@ -287,12 +304,19 @@ export default {
                 if (returnedIndex === -1) this.errors.push(`The level ${this.$route.params.level} does not exist, please double check the URL.`);
                 else this.selected = returnedIndex;
             }
+        },
+        scrollToSelected() {
+            this.$nextTick(() => {
+                const selectedElement = this.$refs.selected;
+                if (selectedElement && selectedElement[0] && selectedElement[0].firstChild) {
+                    selectedElement[selectedElement.length - 1].firstChild.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
         }
     },
 
     computed: {
         level() {
-
             return this.list && this.list[this.selected] && this.list[this.selected][2];
         },
         video() {
@@ -315,21 +339,54 @@ export default {
         },
 
         filteredLevels() {
-            if (!this.searchQuery.trim()) {
-                // Return the list with original indexes
-                return this.list.map((item, index) => ({ index, item }));
-            }
-    
             const query = this.searchQuery.toLowerCase();
-    
-            // Map each item with its original index and filter by the level name
-            return this.list
-                .map((item, index) => ({ index, item }))
-                .filter(({ item: [err, rank, level] }) =>
+            let list = this.list
+            // this was a lot of fun!
+            let sortOption = parseInt(this.sortOption)
+
+            // use the separate indexing for searching Shenanigans
+            list = list.map((item, index) => ({ index, item }));
+            
+            // search logic
+            if (query.trim()) {
+                list = list.filter(({ item: [err, rank, level] }) =>
                     (level?.name.toLowerCase())
                         .includes(query) &&
                     level?.id !== 0
-                );
+                )
+            }
+
+            // sort based on value of dropdown menu
+            if (sortOption === 1) {
+                list = list.filter(({ item }) =>
+                            item[2]?.id !== 0 &&
+                            averageEnjoyment(item[2]?.records) !== "?"
+                        )
+                    .sort((a, b) => {
+                            const enjoymentA = averageEnjoyment(a.item[2].records);
+                            const enjoymentB = averageEnjoyment(b.item[2].records);
+
+                            return enjoymentB - enjoymentA;
+                        })
+                        
+            } else if (sortOption === 2) {
+                list = list.filter(({ item }) =>
+                        item[2].id !== 0
+                    )
+                .sort((a, b) => {
+                    const recordLenA = a.item[2].records.length;
+                    const recordLenB = b.item[2].records.length;
+                    return recordLenB - recordLenA;
+                })
+                
+            }
+
+            // by default the list should be in descending order
+            if (!this.descending) {
+                list = list.reverse()
+            }
+
+            return list
         },
     },
 
@@ -377,11 +434,19 @@ export default {
                 
                 const foundusers = []
                 for (const record of templevel.records) {
+                    if (record.enjoyment && (typeof record.enjoyment === "string" && record.enjoyment !== "?")) {
+                        console.warn(`Found wrong type of enjoyment on level ${templevel.name} (${record.enjoyment})! Please set enjoyment to a number or '?'`)
+                    }
                     if (foundusers.includes(record.user) || record.user === templevel.verifier) {
                         console.warn(`Found duplicate record! ${record.user} has a duplicate record on ${templevel.name} (${templevel.path}.json).`)
                     } else {
                         foundusers.push(record.user)
                     }
+
+                    if (record.enjoyment && (templevel.creators.includes(record.user))) {
+                        console.warn(`Invalid enjoyment on ${templevel.name}: ${record.enjoyment}/10 by ${record.user}!`)
+                    }
+
                 }
             }
             i++

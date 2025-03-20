@@ -1,8 +1,9 @@
 {
 	"id": 98898107,
 	"name": "Layout IX",
-	"author": "Toxycfur",
-	"creators": [],
+	"creators": [
+		"Toxycfur"
+	],
 	"verifier": "Snips",
 	"verification": "https://youtu.be/OcY-SgG1KxM?si=I1E0wZkYu4fwLi_C",
 	"percentToQualify": 100,

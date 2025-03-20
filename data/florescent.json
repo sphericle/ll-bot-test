@@ -1,8 +1,9 @@
 {
 	"id": 86763422,
 	"name": "Florescent",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/SaNc517zW6g?si=pzs1ZRJjmlJqk4Db",
 	"percentToQualify": 100,
@@ -247,12 +248,34 @@
 			"enjoyment": "?"
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/HUvyP_IMI3M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
+		},
+		{
 			"user": "Zyxo",
 			"link": "https://youtu.be/pkttzLsw-Fk",
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/ZRFhhR6S-2M",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
 		}
 	]
 }

@@ -1,8 +1,9 @@
 {
 	"id": 85004894,
 	"name": "LAND OF FIRE",
-	"author": "Gwisp",
-	"creators": [],
+	"creators": [
+		"Gwisp"
+	],
 	"verifier": "Dom_Luca",
 	"verification": "https://youtu.be/cnhbGGu2nVw",
 	"showcase": "https://youtu.be/QSarlBZvTCM",
@@ -73,6 +74,14 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/j7uyHznfdCY",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 4
 		},
 		{
 			"user": "Skip",

@@ -1,8 +1,9 @@
 {
 	"id": 103551938,
 	"name": "Layout X",
-	"author": "Toxycfur",
-	"creators": [],
+	"creators": [
+		"Toxycfur"
+	],
 	"verifier": "Toxycfur",
 	"verification": "https://youtu.be/hOGMQjBpdEA?si=fL-LLJ9RutGlRUib",
 	"percentToQualify": 100,

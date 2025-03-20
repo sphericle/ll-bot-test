@@ -1,8 +1,9 @@
 {
 	"id": 97671390,
 	"name": "Shape of the Sun",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Xeronius",
 	"verification": "https://www.youtube.com/watch?v=_xFqHBlPYZM",
 	"percentToQualify": 100,
@@ -181,6 +182,34 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=bK2ZlXwlS24&ab_channel=LiamEspada",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

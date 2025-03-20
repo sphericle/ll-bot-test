@@ -1,8 +1,9 @@
 {
 	"id": 55975013,
 	"name": "Number one layout",
-	"author": "Aconn",
-	"creators": [],
+	"creators": [
+		"Aconn"
+	],
 	"verifier": "Aconn",
 	"verification": "https://youtu.be/IeXqL9MQ38Y",
 	"percentToQualify": 100,
@@ -722,6 +723,49 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/08zcy6lcZuw?si=8SYOEM5B-O9INSgf",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/32HIDfOyMLk",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/8N7lFU4zres",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/unnntHNtHVA",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 10
 		}
 	]

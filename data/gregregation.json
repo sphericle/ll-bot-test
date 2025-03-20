@@ -1,8 +1,9 @@
 {
 	"id": 76119356,
 	"name": "Gregregation",
-	"author": "Moisty",
-	"creators": [],
+	"creators": [
+		"Moisty"
+	],
 	"verifier": "Moisty",
 	"verification": "https://youtu.be/BKeVuxCzaVI",
 	"percentToQualify": 51,
@@ -304,6 +305,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Rarhi7gx_uk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 7
 		},
 		{
 			"user": "Ultrobro",

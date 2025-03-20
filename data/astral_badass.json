@@ -1,8 +1,9 @@
 {
 	"id": 101145130,
 	"name": "Astral Badass",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://www.youtube.com/watch?v=drZHpY0q9jY",
 	"percentToQualify": 100,
@@ -54,6 +55,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Gf8_WUwol0M",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

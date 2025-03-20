@@ -1,8 +1,8 @@
 {
 	"id": 94839313,
 	"name": "fog",
-	"author": "hab",
 	"creators": [
+		"hab",
 		"Flare"
 	],
 	"verifier": "zDark",
@@ -111,6 +111,20 @@
 			"hz": 300,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jCeSU9XfozJbzQUR_?invite=cr-MSxUaG0sMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "Chris",
+			"link": "https://www.youtube.com/watch?v=W0oBipmIFCs",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 6
 		}
 	]
 }

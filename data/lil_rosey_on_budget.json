@@ -1,8 +1,9 @@
 {
 	"id": 104559167,
 	"name": "Lil Rosey on Budget",
-	"author": "QwidziT",
-	"creators": [],
+	"creators": [
+		"QwidziT"
+	],
 	"verifier": "QwidziT",
 	"verification": "https://youtu.be/fRHZU3Xop1E",
 	"percentToQualify": 50,

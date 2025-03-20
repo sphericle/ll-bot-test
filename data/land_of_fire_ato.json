@@ -1,8 +1,9 @@
 {
 	"id": 96504913,
 	"name": "land of fire",
-	"author": "Asteria.",
-	"creators": [],
+	"creators": [
+		"Asteria."
+	],
 	"verifier": "Asteria.",
 	"verification": "https://youtu.be/OOOCew0yJD8",
 	"percentToQualify": 100,

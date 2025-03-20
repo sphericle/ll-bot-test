@@ -1,8 +1,9 @@
 {
 	"id": 59927315,
 	"name": "My Ordinary Life",
-	"author": "NaoSouDasher",
-	"creators": [],
+	"creators": [
+		"NaoSouDasher"
+	],
 	"verifier": "NaoSouDasher",
 	"verification": "https://www.youtube.com/watch?v=1oIiJFfCDlM",
 	"percentToQualify": 100,
@@ -347,6 +348,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 6
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

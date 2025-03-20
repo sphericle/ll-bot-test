@@ -1,8 +1,9 @@
 {
 	"id": 83504104,
 	"name": "Time For",
-	"author": "Suyoshimaster07",
-	"creators": [],
+	"creators": [
+		"Suyoshimaster07"
+	],
 	"verifier": "Suyoshimaster07",
 	"verification": "https://youtu.be/9UZRLmhk85M",
 	"percentToQualify": 100,
@@ -235,6 +236,27 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
 		}
 	]
 }

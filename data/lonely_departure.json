@@ -1,8 +1,9 @@
 {
 	"id": 75702343,
 	"name": "Lonely Departure",
-	"author": "Khronos",
-	"creators": [],
+	"creators": [
+		"Khronos"
+	],
 	"verifier": "Khronos",
 	"verification": "https://youtu.be/cVrq_nmDI2g",
 	"percentToQualify": 100,

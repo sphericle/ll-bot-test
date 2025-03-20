@@ -1,8 +1,9 @@
 {
 	"id": 80688784,
 	"name": "Dancing Moonman ⭐",
-	"author": "XxJ0SHxX",
-	"creators": [],
+	"creators": [
+		"XxJ0SHxX"
+	],
 	"verifier": "XxJ0SHxX",
 	"verification": "https://youtu.be/6QZi39FK_dk",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 78435863,
 	"name": "Layout Master",
-	"author": "sqrtpie",
-	"creators": [],
+	"creators": [
+		"sqrtpie"
+	],
 	"verifier": "sqrtpie",
 	"verification": "https://youtu.be/kzgdFvxtuZY",
 	"showcase": "https://www.youtube.com/watch?v=JtvIEznwyzY",
@@ -212,6 +213,13 @@
 			"link": "https://www.youtube.com/watch?v=9P6DL4hURcs",
 			"percent": 100,
 			"hz": 60,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/7fPCMgX98h0",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{

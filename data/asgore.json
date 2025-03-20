@@ -1,8 +1,9 @@
 {
 	"id": 96366378,
 	"name": "Asgore",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Poke Zach",
 	"verification": "https://www.youtube.com/watch?v=xTHWYX9HpEw",
 	"percentToQualify": 100,
@@ -218,6 +219,50 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=hBjFzENE_X8&ab_channel=sphericalt",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/C2rSaUhYcpw?si=1Ao81MC3eATgpDuV",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		},
+		{
+			"user": "KingFloppa",
+			"link": "https://www.youtube.com/watch?v=1Oq9IBRM3ho",
+			"percent": 100,
+			"hz": 210,
+			"enjoyment": 9
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Ripper0300",
+			"link": "https://youtu.be/mbelISceHD8?si=z0Sb9Nc7zzMyTw4i",
+			"percent": 100,
+			"hz": 80,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }

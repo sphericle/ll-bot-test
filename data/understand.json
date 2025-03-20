@@ -1,8 +1,9 @@
 {
 	"id": 105526522,
 	"name": "understand",
-	"author": "Hydraniac",
-	"creators": [],
+	"creators": [
+		"Hydraniac"
+	],
 	"verifier": "Hydraniac",
 	"verification": "https://youtu.be/ceqore3Wc24?si=eGbwZKhFxbFhrSUO",
 	"percentToQualify": 59,
@@ -50,6 +51,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jCe3M5Km7YtUbCnls?invite=cr-MSxabmwsMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

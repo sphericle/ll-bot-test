@@ -1,8 +1,9 @@
 {
 	"id": 95150638,
 	"name": "Konec",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/GXEhXua0CU4?si=zn9lxbDZ4KV1ZoqO",
 	"percentToQualify": 100,
@@ -82,6 +83,13 @@
 			"link": "https://youtu.be/sCPHjfaaol8",
 			"percent": 100,
 			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/YHlC3F4HjxM",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{
@@ -319,6 +327,34 @@
 			"hz": 165,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/shorts/lOo39msEp9U",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/No-WOWpfM1g",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

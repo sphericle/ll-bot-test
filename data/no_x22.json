@@ -1,8 +1,9 @@
 {
 	"id": 97154670,
 	"name": "NO x22",
-	"author": "Tanginess",
-	"creators": [],
+	"creators": [
+		"Tanginess"
+	],
 	"verifier": "Tanginess",
 	"verification": "https://www.youtube.com/watch?v=Nn9E-v8GRw4",
 	"percentToQualify": 56,
@@ -109,6 +110,14 @@
 			"enjoyment": 10
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ShcwLKsglTI?si=fKGtcu8kf2cT_j9-",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
 			"user": "attrixia",
 			"link": "https://www.youtube.com/watch?v=ZYdjaK297po",
 			"percent": 100,
@@ -130,6 +139,20 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jCfkbVdPi2GmzVQ2q?invite=cr-MSxDcnQsMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "rastuyas",
+			"link": "https://youtu.be/h6qNMq5Tn6s",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 9
 		}
 	]

@@ -1,8 +1,9 @@
 {
 	"id": 102097436,
 	"name": "Rupture",
-	"author": "Angryface",
-	"creators": [],
+	"creators": [
+		"Angryface"
+	],
 	"verifier": "Angryface",
 	"verification": "https://www.youtube.com/watch?v=55tIqXOHuE8",
 	"percentToQualify": 50,
@@ -59,7 +60,8 @@
 			"link": "https://youtu.be/AOjC7_jbGSI?si=LZhHN7f1Gs5lvJXQ",
 			"percent": 50,
 			"hz": 60,
-			"mobile": true
+			"mobile": true,
+			"enjoyment": 10
 		},
 		{
 			"user": "Mystikl",

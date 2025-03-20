@@ -1,8 +1,9 @@
 {
 	"id": 60860952,
 	"name": "Electrostatic Layout",
-	"author": "Blathers",
-	"creators": [],
+	"creators": [
+		"Blathers"
+	],
 	"verifier": "Blathers",
 	"verification": "https://youtu.be/YlPdHF9jaB4",
 	"percentToQualify": 100,

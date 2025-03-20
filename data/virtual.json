@@ -1,8 +1,9 @@
 {
 	"id": 74786109,
 	"name": "virtual layout",
-	"author": "morsey",
-	"creators": [],
+	"creators": [
+		"morsey"
+	],
 	"verifier": "morsey",
 	"verification": "https://youtu.be/91xiogJwB6I",
 	"percentToQualify": 61,

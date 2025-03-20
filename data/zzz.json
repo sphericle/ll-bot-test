@@ -1,8 +1,9 @@
 {
 	"id": 75292861,
 	"name": "zzz",
-	"author": "juanmhtxd",
-	"creators": [],
+	"creators": [
+		"juanmhtxd"
+	],
 	"verifier": "juanmhtxd",
 	"verification": "https://youtu.be/pT_ibBzlI2M",
 	"percentToQualify": 100,
@@ -394,6 +395,13 @@
 			"mobile": false
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Jb2cdCuxlh0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/nceLu_BtNfo",
 			"percent": 100,
@@ -730,6 +738,35 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 10
+		},
+		{
+			"user": "GoldMan",
+			"link": "https://youtu.be/agVjTM8yCWY?si=xX4ER1HV2LiXkDYi",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/474IkL7h3vU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "Ripper0300",
+			"link": "https://youtu.be/mbelISceHD8?si=z0Sb9Nc7zzMyTw4i",
+			"percent": 100,
+			"hz": 80,
+			"enjoyment": 4,
+			"mobile": true
 		}
 	]
 }

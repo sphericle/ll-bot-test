@@ -1,8 +1,9 @@
 {
 	"id": 83934922,
 	"name": "Solar System",
-	"author": "ZeLaND",
-	"creators": [],
+	"creators": [
+		"ZeLaND"
+	],
 	"verifier": "ZeLaND",
 	"verification": "https://youtu.be/DEQ1v1DvUYU",
 	"showcase": "https://youtu.be/Lzs4TRsc1SA",
@@ -195,6 +196,13 @@
 		{
 			"user": "Skybolt06",
 			"link": "https://youtu.be/r3wAAE7aEMg",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/ufhNyCtuLJc",
 			"percent": 100,
 			"hz": 360,
 			"mobile": false
@@ -556,6 +564,34 @@
 			"hz": 165,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=Jij_el9X80Q&ab_channel=emberkz",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/ylEP23SHiDY",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/oG0TxJahHLU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }

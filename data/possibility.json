@@ -1,8 +1,9 @@
 {
 	"id": 90102818,
 	"name": "Possibility",
-	"author": "StoneCD",
-	"creators": [],
+	"creators": [
+		"StoneCD"
+	],
 	"verifier": "StoneCD",
 	"verification": "https://youtu.be/_sE7E9MJMeo",
 	"percentToQualify": 100,
@@ -327,12 +328,41 @@
 			"enjoyment": 5
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
 			"user": "josikp",
 			"link": "https://www.youtube.com/watch?v=mzpTLr0guHc",
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/icnahLI9Ivs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/gqHv4OoaGkI?si=PZSuK0Om_5jBL6GG",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }

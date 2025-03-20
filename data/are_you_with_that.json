@@ -1,8 +1,9 @@
 {
 	"id": 73963992,
 	"name": "ARE YOU WITH THAT",
-	"author": "idiotdash",
-	"creators": [],
+	"creators": [
+		"idiotdash"
+	],
 	"verifier": "idiotdash",
 	"verification": "https://youtu.be/tAdYjgLltY0",
 	"showcase": "https://youtu.be/SvwCuOsYbdU",
@@ -187,6 +188,21 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kYxzOGBsm34?si=iRuMGO4-VEKuds3M",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 3,
+			"mobile": true
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jzLYDWBC3dWZbF2OH?invite=cr-MSxTSlosMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

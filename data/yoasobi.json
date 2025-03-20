@@ -1,8 +1,9 @@
 {
 	"id": 65930587,
 	"name": "Yoasobi",
-	"author": "Skrypto",
-	"creators": [],
+	"creators": [
+		"Skrypto"
+	],
 	"verifier": "Kutsu",
 	"verification": "https://youtu.be/xp9AVqy99rQ",
 	"showcase": "https://www.youtube.com/watch?v=f-_KSq_sNYI&ab_channel=LayoutListShowcases",
@@ -421,6 +422,14 @@
 			"mobile": false
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/q2jkdG2d6tI",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
 			"user": "TurtleER",
 			"link": "https://www.youtube.com/watch?v=x_sKaTR7glM&ab_channel=TurtleERFAKE",
 			"percent": 100,
@@ -475,6 +484,13 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "fusemax",
+			"link": "https://youtu.be/RoKwYHemT4U",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 8
 		}
 	]
 }

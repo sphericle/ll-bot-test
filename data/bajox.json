@@ -1,8 +1,9 @@
 {
 	"id": 74426934,
 	"name": "Bajox",
-	"author": "Bibox",
-	"creators": [],
+	"creators": [
+		"Bibox"
+	],
 	"verifier": "rustic",
 	"verification": "https://youtu.be/G4DywBPUAKM",
 	"showcase": "https://www.youtube.com/watch?v=r9WXT6JwPSE&ab_channel=LayoutListShowcases",
@@ -110,6 +111,13 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 2
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/FoPsl86k8YU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
 		}
 	]
 }

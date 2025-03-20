@@ -1,8 +1,9 @@
 {
 	"id": 94434206,
 	"name": "NO JOKES HERE",
-	"author": "Blueberry",
-	"creators": [],
+	"creators": [
+		"Blueberry"
+	],
 	"verifier": "Poke Zach",
 	"verification": "https://www.youtube.com/watch?v=-RpcaYotToI",
 	"percentToQualify": 100,
@@ -289,6 +290,41 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "orang cat",
+			"link": "https://youtu.be/08zcy6lcZuw?si=8SYOEM5B-O9INSgf",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/MG7AMZVmbGM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 3
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/icnahLI9Ivs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }

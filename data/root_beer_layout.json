@@ -1,8 +1,9 @@
 {
 	"id": 56171740,
 	"name": "Root Beer Layout",
-	"author": "Natteboss",
-	"creators": [],
+	"creators": [
+		"Natteboss"
+	],
 	"verifier": "Natteboss",
 	"verification": "https://youtu.be/T9v8MsdzQ-8",
 	"percentToQualify": 100,
@@ -252,6 +253,13 @@
 			"percent": 100,
 			"hz": 120,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/2muwLrQSkgU",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		},
 		{
 			"user": "SinSnrGD",
@@ -779,6 +787,66 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 10
+		},
+		{
+			"user": "Z3pH4x",
+			"link": "https://youtu.be/BvKl6l-S-Ls",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "oFrqsh",
+			"link": "https://medal.tv/games/geometry-dash/clips/jKd836BnS3hdP5eu3/ZE9ZTwd4q2TR?invite=cr-MSxoVmssMTkxMTIzODgzLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/t8JVHzNCAO0",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/FwtbidtthfY",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/mATxAmDjJzI",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/ylTE0xHhNEs",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/yh5cU1mubNk",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/Quj75Xzaqlw?si=7bm5qC2gvr9cDGv7",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
 		}
 	]
 }

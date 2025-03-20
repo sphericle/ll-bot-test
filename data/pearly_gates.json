@@ -1,8 +1,9 @@
 {
 	"id": 103269973,
 	"name": "Pearly Gates",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/aBEcaALY8R0?si=jSOK2vyVpMOM2Xm4",
 	"percentToQualify": 100,
@@ -153,6 +154,13 @@
 			"enjoyment": 7
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/FaPxpBLuXXE",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
 			"user": "DERYAMIX",
 			"link": "https://youtu.be/_sSwOb3JXN4?si=GrEbLUq7-g9UYGha",
 			"percent": 100,
@@ -245,6 +253,74 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 5
+		},
+		{
+			"user": "Z3pH4x",
+			"link": "https://youtu.be/BvKl6l-S-Ls",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=foGzhikpmXo&ab_channel=emberkz",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "LuminGMD",
+			"link": "https://youtu.be/ef1Ss3gIBZQ",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/-PJFOgRoGcU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/IOLkNxxwH5M",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 3,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/hNnhvoZphO8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/7KnSkhbkEos",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/uCFXQoQRsRo",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/KpjHX4tQK_o",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
 		}
 	]
 }

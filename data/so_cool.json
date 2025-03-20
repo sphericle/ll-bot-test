@@ -1,8 +1,9 @@
 {
 	"id": 67689701,
 	"name": "So Cool ✨",
-	"author": "DeVeReL",
-	"creators": [],
+	"creators": [
+		"DeVeReL"
+	],
 	"verifier": "DeVeReL",
 	"verification": "https://youtu.be/LD53hk7JEyk",
 	"showcase": "https://www.youtube.com/watch?v=isG_DIEGx0U",
@@ -564,6 +565,13 @@
 			"link": "https://youtu.be/nTwBiNyqrdg",
 			"percent": 100,
 			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/2muwLrQSkgU",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{
@@ -1263,6 +1271,96 @@
 			"percent": 100,
 			"hz": 120,
 			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Arsonic777",
+			"link": "https://youtu.be/mGC_aJvUBvs?si=11gPjD4xMLq9Ef7y",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Z3pH4x",
+			"link": "https://youtu.be/BvKl6l-S-Ls?si=nOgZXdsTZr7OHU7w",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		},
+		{
+			"user": "Cowdoom11",
+			"link": "https://youtu.be/eZTFZ6U2Ois",
+			"percent": 100,
+			"hz": 480,
+			"enjoyment": 6
+		},
+		{
+			"user": "BV23",
+			"link": "https://youtu.be/nS-HlCfxERY",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 9
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/bQLsrgA-jnQ",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/oHJ3J9Lwx7U",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/t4GemwhSfIw",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 9
+		},
+		{
+			"user": "buruc",
+			"link": "https://youtu.be/Q7a1hgeXjzw",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9
+		},
+		{
+			"user": "ghostshotplayz",
+			"link": "https: //www.youtube.com/live/42E5u-I2GYA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/4tR8KqQ5cFA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "coinedguy5",
+			"link": "https://youtu.be/6Gv7rI6sHP8",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Virek",
+			"link": "https://youtu.be/E3vE8vw2BYY?si=MM6dGBCF3Xnn5vTb",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
 			"mobile": true
 		}
 	]

@@ -1,8 +1,9 @@
 {
 	"id": 95123879,
 	"name": "villain",
-	"author": "EmeraldOre",
-	"creators": [],
+	"creators": [
+		"EmeraldOre"
+	],
 	"verifier": "evil",
 	"verification": "https://youtu.be/N0paHVsBIl0",
 	"percentToQualify": 100,

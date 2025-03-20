@@ -1,8 +1,9 @@
 {
 	"id": 102890622,
 	"name": "wildest dreams",
-	"author": "zDark",
-	"creators": [],
+	"creators": [
+		"zDark"
+	],
 	"verifier": "zDark",
 	"verification": "https://youtu.be/8fqabzqt2ag?feature=shared",
 	"percentToQualify": 100,

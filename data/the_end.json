@@ -1,8 +1,9 @@
 {
 	"id": 81014240,
 	"name": "The End Is Here",
-	"author": "xxblogde2xx",
-	"creators": [],
+	"creators": [
+		"xxblogde2xx"
+	],
 	"verifier": "PoolGAMER",
 	"verification": "https://youtu.be/7tlwTUKlXHs",
 	"showcase": "https://youtu.be/LTp7q7dZLtE",

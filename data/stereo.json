@@ -1,8 +1,9 @@
 {
 	"id": 89865607,
 	"name": "STEREO",
-	"author": "agentgiscool",
-	"creators": [],
+	"creators": [
+		"agentgiscool"
+	],
 	"verifier": "agentgiscool",
 	"verification": "https://youtu.be/M-YtSEHWoTg",
 	"percentToQualify": 100,
@@ -74,6 +75,14 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/2snibKy_ZrQ?si=HFSCGb4XuSrsCgWy",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
 		}
 	]
 }

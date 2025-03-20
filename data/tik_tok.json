@@ -1,8 +1,9 @@
 {
 	"id": 99546799,
 	"name": "TiK ToK",
-	"author": "Huskie",
-	"creators": [],
+	"creators": [
+		"Huskie"
+	],
 	"verifier": "Asteria.",
 	"verification": "https://www.youtube.com/watch?v=aC5pxIs3Bqc",
 	"percentToQualify": 57,
@@ -23,6 +24,14 @@
 			"link": "https://youtu.be/RTJ_dJxRD2A",
 			"percent": 100,
 			"hz": 144,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/pHR8PFh2fLs",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
 		},
@@ -137,6 +146,27 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 4
+		},
+		{
+			"user": "NotBelugaFan",
+			"link": "https://youtu.be/aHeE6t_e3t4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "GeoGamer975",
+			"link": "https://youtu.be/n96sDw-bXF4",
+			"percent": 63,
+			"hz": 120,
+			"enjoyment": 10
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/dr-KrTd4rd4",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	],
 	"enjoyment": 10

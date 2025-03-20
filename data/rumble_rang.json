@@ -1,8 +1,9 @@
 {
 	"id": 75226335,
 	"name": "Rumble Rang",
-	"author": "sqrtpie",
-	"creators": [],
+	"creators": [
+		"sqrtpie"
+	],
 	"verifier": "sqrtpie",
 	"verification": "https://youtu.be/HTtesEtmYrw",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 86993270,
 	"name": "poster",
-	"author": "hab",
-	"creators": [],
+	"creators": [
+		"hab"
+	],
 	"verifier": "zDark",
 	"verification": "https://youtu.be/zZONt-VkBpc",
 	"showcase": "https://youtu.be/l2EVi215atI",
@@ -384,6 +385,20 @@
 			"link": "https://youtu.be/6VcQo6QcU6w?si=HkeVn2z86TXUvWij",
 			"percent": 52,
 			"hz": 60,
+			"enjoyment": 9
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jQpNkA8CxLgmDcCfE?invite=cr-MSxmUWwsMjY3Njk2MzQ2",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "nirek",
+			"link": "https://youtu.be/4R5MYEHmBeQ?si=cTYRV2s0vgOByBZ8",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 9
 		}
 	]

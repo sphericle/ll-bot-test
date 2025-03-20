@@ -1,8 +1,9 @@
 {
 	"id": 67274584,
 	"name": "Adapation ⭐",
-	"author": "BlackWolf436",
-	"creators": [],
+	"creators": [
+		"BlackWolf436"
+	],
 	"verifier": "BlackWolf436",
 	"verification": "https://youtu.be/aPuLRF7CUsA",
 	"percentToQualify": 100,
@@ -616,6 +617,28 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 7
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/TVu5URuf1s8",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 1
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/FIdq6lk0Ay8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 1
 		}
 	]
 }

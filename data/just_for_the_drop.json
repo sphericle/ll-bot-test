@@ -1,8 +1,9 @@
 {
 	"id": 66902221,
 	"name": "just for the drop ✨",
-	"author": "sqrtpie",
-	"creators": [],
+	"creators": [
+		"sqrtpie"
+	],
 	"verifier": "sqrtpie",
 	"verification": "https://youtu.be/_EPo3CmSoUc",
 	"percentToQualify": 55,
@@ -85,6 +86,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/dsRD7FS5Cug",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 5
 		},
 		{
 			"user": "Poke Zach",

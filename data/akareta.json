@@ -1,8 +1,9 @@
 {
 	"id": 109846475,
 	"name": "Akareta",
-	"author": "Glitch_",
-	"creators": [],
+	"creators": [
+		"Glitch_"
+	],
 	"verifier": "Riley",
 	"verification": "https://youtu.be/giOLYSaxkiY",
 	"percentToQualify": 56,
@@ -65,6 +66,20 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/l6M83x5Z1Js",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/B64u8YgWCGs",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 8
 		}
 	]
 }

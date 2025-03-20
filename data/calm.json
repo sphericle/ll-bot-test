@@ -1,8 +1,9 @@
 {
 	"id": 96174612,
 	"name": "Calm",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Xeronius",
 	"verification": "https://www.youtube.com/watch?v=DZc1gDnTOYc",
 	"percentToQualify": 100,
@@ -196,6 +197,20 @@
 			"hz": 165,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
 		}
 	]
 }

@@ -1,8 +1,9 @@
 {
 	"id": 102176153,
 	"name": "CELESTIA",
-	"author": "Tanginess",
-	"creators": [],
+	"creators": [
+		"Tanginess"
+	],
 	"verifier": "Riley",
 	"verification": "https://youtu.be/NJ0CvB_Cmx0",
 	"showcase": "https://www.youtube.com/watch?v=dXLsdupQXJk",
@@ -112,6 +113,13 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "fusemax",
+			"link": "https://youtu.be/JoSJfczDQ3M",
+			"percent": 100,
+			"hz": 144,
 			"enjoyment": 10
 		}
 	]

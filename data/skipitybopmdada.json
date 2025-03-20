@@ -1,8 +1,9 @@
 {
 	"id": 79327158,
 	"name": "SKIPITYBOPMDADA",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/OhQA4XTSvdY",
 	"percentToQualify": 100,
@@ -314,6 +315,20 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
 		}
 	]
 }

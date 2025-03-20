@@ -1,8 +1,9 @@
 {
 	"id": 62532589,
 	"name": "epilogue layout",
-	"author": "morsey",
-	"creators": [],
+	"creators": [
+		"morsey"
+	],
 	"verifier": "morsey",
 	"verification": "https://youtu.be/0pXcCwxOoPQ?si=mSTZxG2fh04FAotR",
 	"percentToQualify": 100,

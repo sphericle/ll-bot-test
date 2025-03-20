@@ -1,8 +1,9 @@
 {
 	"id": 47625602,
 	"name": "Kitty Kat LAYOUT",
-	"author": "Blathers",
-	"creators": [],
+	"creators": [
+		"Blathers"
+	],
 	"verifier": "Blathers",
 	"verification": "https://youtu.be/GUWW_OVT2YM",
 	"showcase": "https://youtu.be/LAckmLSs3xk",

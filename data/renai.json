@@ -1,8 +1,9 @@
 {
 	"id": 67357389,
 	"name": "Renai Circulation",
-	"author": "Natteboss",
-	"creators": [],
+	"creators": [
+		"Natteboss"
+	],
 	"verifier": "Natteboss",
 	"verification": "https://www.youtube.com/watch?v=2QeF3mkc3B8",
 	"percentToQualify": 100,

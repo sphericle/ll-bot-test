@@ -1,8 +1,9 @@
 {
 	"id": 60580078,
 	"name": "Marenol ⭐",
-	"author": "Ph4lip",
-	"creators": [],
+	"creators": [
+		"Ph4lip"
+	],
 	"verifier": "Ph4lip",
 	"verification": "https://youtu.be/n0O6yLhA-Z4",
 	"percentToQualify": 100,

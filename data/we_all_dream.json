@@ -1,8 +1,9 @@
 {
 	"id": 103370550,
 	"name": "We all Dream",
-	"author": "xXDoraimonXx",
-	"creators": [],
+	"creators": [
+		"xXDoraimonXx"
+	],
 	"verifier": "xXDoraimonXx",
 	"verification": "https://www.youtube.com/watch?v=Icud5448NeQ",
 	"percentToQualify": 100,
@@ -183,6 +184,14 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/G0pd9faPz0Q?si=cjx8jA6lpmklvpvn",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 1,
 			"mobile": true
 		}
 	]

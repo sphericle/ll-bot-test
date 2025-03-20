@@ -1,8 +1,9 @@
 {
 	"id": 100567457,
 	"name": "Virgo Constellation",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/8gDr26ScxJk?si=_YMFoV2zvQpNMyMc",
 	"percentToQualify": 100,
@@ -150,12 +151,41 @@
 			"enjoyment": 4
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/_IQbZAIFfU8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
 			"user": "Bocopter",
 			"link": "https://youtu.be/F4teQwEXB7k?si=RXtfmwWDRtc0xTjm",
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 5,
 			"mobile": true
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/-PJFOgRoGcU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/icnahLI9Ivs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 5
 		}
 	]
 }

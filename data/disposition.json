@@ -1,8 +1,9 @@
 {
 	"id": 94736066,
 	"name": "Disposition",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Xeronius",
 	"verification": "https://www.youtube.com/watch?v=M8Y-AecdjA4",
 	"percentToQualify": 100,
@@ -319,6 +320,14 @@
 			"enjoyment": 6
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/N7bv3dF1GcQ",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
+		},
+		{
 			"user": "para",
 			"link": "https://www.youtube.com/watch?v=tjoYwavopJo",
 			"percent": 100,
@@ -348,6 +357,42 @@
 			"hz": 60,
 			"mobile": false,
 			"enjoyment": 10
+		},
+		{
+			"user": "sn0w",
+			"link": "https://medal.tv/games/geometry-dash/clips/jyD5osZn5Hkl9t0n1?invite=cr-MSxjb20sMjY3Njk2MzQ2LA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/shREyqPCP-M",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
+		},
+		{
+			"user": "thanos",
+			"link": "https://youtu.be/7EKoisK3zg0",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
+		},
+		{
+			"user": "buruc",
+			"link": "https://www.youtube.com/watch?v=loOBT6T3_LU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/W_YB3cpfg_Y",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

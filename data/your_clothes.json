@@ -1,8 +1,9 @@
 {
 	"id": 99153890,
 	"name": "your clothes",
-	"author": "jz5",
-	"creators": [],
+	"creators": [
+		"jz5"
+	],
 	"verifier": "Poke Zach",
 	"verification": "https://youtu.be/z0C0Zkd9rUU?si=lMq76hlSU_qqGyfw",
 	"percentToQualify": 100,
@@ -39,6 +40,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://www.youtube.com/watch?v=c4DXLcIDQ-0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 8
 		},
 		{
 			"user": "Mystikl",

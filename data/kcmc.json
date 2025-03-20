@@ -1,8 +1,9 @@
 {
 	"id": 84630932,
 	"name": "kcmc",
-	"author": "zDark",
-	"creators": [],
+	"creators": [
+		"zDark"
+	],
 	"verifier": "zDark",
 	"verification": "https://youtu.be/tSwIlEHOhm4",
 	"percentToQualify": 100,
@@ -256,6 +257,20 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
 		}
 	]
 }

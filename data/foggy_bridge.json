@@ -1,8 +1,9 @@
 {
 	"id": 93882216,
 	"name": "Foggy Bridge",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/w5FuiUa6oAU?si=Q_cskVOMwtTBXknf",
 	"percentToQualify": 100,
@@ -94,6 +95,13 @@
 			"link": "https://youtu.be/6WPV9juinQ8",
 			"percent": 100,
 			"hz": 288,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/sZbegnmOssU",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{
@@ -316,6 +324,28 @@
 			"hz": 60,
 			"enjoyment": 8,
 			"mobile": true
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/sbZBXpHQFms",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/474IkL7h3vU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 3
 		}
 	]
 }

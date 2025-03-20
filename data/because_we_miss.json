@@ -1,8 +1,9 @@
 {
 	"id": 96159102,
 	"name": "Because We Miss You",
-	"author": "sqrtpie",
-	"creators": [],
+	"creators": [
+		"sqrtpie"
+	],
 	"verifier": "sqrtpie",
 	"verification": "https://youtu.be/t7unVBZ_TmE?si=e6kNA23PeR66WyJa",
 	"percentToQualify": 100,

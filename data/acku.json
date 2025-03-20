@@ -1,8 +1,9 @@
 {
 	"id": 87178925,
 	"name": "Acku",
-	"author": "Gaelaser",
-	"creators": [],
+	"creators": [
+		"Gaelaser"
+	],
 	"verifier": "Gaelaser",
 	"verification": "https://youtu.be/-y3JJadYn9s",
 	"percentToQualify": 100,
@@ -146,6 +147,13 @@
 			"mobile": true
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/YHlC3F4HjxM",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
 			"user": "ado",
 			"link": "https://www.youtube.com/watch?v=KAfDOZNnBSQ",
 			"percent": 100,
@@ -283,6 +291,20 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 6
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 7
 		}
 	]

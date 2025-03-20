@@ -1,8 +1,9 @@
 {
 	"id": 78424022,
 	"name": "Last Chapter",
-	"author": "idiotdash",
-	"creators": [],
+	"creators": [
+		"idiotdash"
+	],
 	"verifier": "idiotdash",
 	"verification": "https://youtu.be/MKIP9PFibCQ",
 	"percentToQualify": 54,

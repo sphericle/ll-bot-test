@@ -1,8 +1,8 @@
 {
 	"id": 62563280,
 	"name": "Bufu Layout",
-	"author": "Ph4lip",
 	"creators": [
+		"Ph4lip",
 		"Kanjii"
 	],
 	"verifier": "Ph4lip",
@@ -253,6 +253,13 @@
 			"mobile": false
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/fLToCGCRkXk",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
+		},
+		{
 			"user": "Xeronius",
 			"link": "https://www.youtube.com/watch?v=cpAXwIkG_4M",
 			"percent": 100,
@@ -297,6 +304,13 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Gf8_WUwol0M",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 8
 		}
 	]

@@ -1,8 +1,9 @@
 {
 	"id": 71183856,
 	"name": "dunkaccirumiru",
-	"author": "idiotdash",
-	"creators": [],
+	"creators": [
+		"idiotdash"
+	],
 	"verifier": "idiotdash",
 	"verification": "https://youtu.be/XUZpJGvZwIc?si=wvypT31gAUZmY-QD",
 	"percentToQualify": 59,

@@ -1,8 +1,9 @@
 {
 	"id": 71618613,
 	"name": "Thwack Layout",
-	"author": "neigefeu",
-	"creators": [],
+	"creators": [
+		"neigefeu"
+	],
 	"verifier": "neigefeu",
 	"verification": "https://youtu.be/K0keLVd5UV0",
 	"percentToQualify": 100,
@@ -513,6 +514,13 @@
 			"percent": 100,
 			"hz": 480,
 			"mobile": false,
+			"enjoyment": 9
+		},
+		{
+			"user": "Salukis",
+			"link": "https://youtu.be/VpEwImoh67A",
+			"percent": 100,
+			"hz": 144,
 			"enjoyment": 9
 		}
 	]

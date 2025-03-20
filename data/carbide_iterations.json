@@ -1,8 +1,9 @@
 {
 	"id": 73329280,
 	"name": "Carbide Iterations",
-	"author": "XxJ0SHxX",
-	"creators": [],
+	"creators": [
+		"XxJ0SHxX"
+	],
 	"verifier": "XxJ0SHxX",
 	"verification": "https://youtu.be/H1HjWu8EX88",
 	"percentToQualify": 100,
@@ -220,6 +221,13 @@
 			"mobile": true
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/HawMG6reB3A",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/bHpN3SpSQNc",
 			"percent": 100,
@@ -411,6 +419,20 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

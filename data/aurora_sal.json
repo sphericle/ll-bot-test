@@ -1,8 +1,9 @@
 {
 	"id": 92470023,
 	"name": "Aurora",
-	"author": "Sal752",
-	"creators": [],
+	"creators": [
+		"Sal752"
+	],
 	"verifier": "fae",
 	"verification": "https://youtu.be/gAb4xB7_jhc?si=a3S_2_J6peCB7R2P",
 	"percentToQualify": 100,
@@ -81,6 +82,14 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/0q0plWGvPNs?si=uruYBrYMDnxndfia",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }

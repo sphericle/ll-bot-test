@@ -1,8 +1,9 @@
 {
 	"id": 98192400,
 	"name": "Fifty K",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Xeronius",
 	"verification": "https://www.youtube.com/watch?v=fLHyVEwh7_I",
 	"percentToQualify": 100,
@@ -174,6 +175,27 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true,
+			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/hBjFzENE_X8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 8
 		}
 	]

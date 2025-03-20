@@ -1,8 +1,9 @@
 {
 	"id": 76131001,
 	"name": "Diyu",
-	"author": "coinlol",
-	"creators": [],
+	"creators": [
+		"coinlol"
+	],
 	"verifier": "coinlol",
 	"verification": "https://youtu.be/K9xcU6BFUYA",
 	"percentToQualify": 100,
@@ -227,6 +228,13 @@
 			"mobile": true
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Jb2cdCuxlh0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/CwCJJyacM5A",
 			"percent": 100,
@@ -434,6 +442,20 @@
 			"percent": 100,
 			"hz": 60,
 			"enjoyment": 10
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

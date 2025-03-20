@@ -1,8 +1,9 @@
 {
 	"id": 88711224,
 	"name": "Soggy Swamp",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://www.youtube.com/watch?v=XwRcsKD1MSM&ab_channel=BlysteryxGD",
 	"showcase": "https://youtu.be/GMUTrmhTgqM?si=G8BdRrhc3oLjph5f",

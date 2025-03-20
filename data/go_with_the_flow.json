@@ -1,8 +1,9 @@
 {
 	"id": 80637923,
 	"name": "Go With The Flow",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/dxv3eA1IAgY",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 95120621,
 	"name": "Sky Castle",
-	"author": "Asteria.",
-	"creators": [],
+	"creators": [
+		"Asteria."
+	],
 	"verifier": "Asteria.",
 	"verification": "https://youtu.be/CnuXzzH19Oc",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 89490979,
 	"name": "Zhuriken",
-	"author": "Bibox",
-	"creators": [],
+	"creators": [
+		"Bibox"
+	],
 	"verifier": "zDark",
 	"verification": "https://youtu.be/uJyDFOXnUDs",
 	"percentToQualify": 100,

@@ -1,8 +1,9 @@
 {
 	"id": 76246433,
 	"name": "Druggered Duck",
-	"author": "QuackerDeezles",
-	"creators": [],
+	"creators": [
+		"QuackerDeezles"
+	],
 	"verifier": "QuackerDeezles",
 	"verification": "https://youtu.be/N7H8Wtna1ZM",
 	"percentToQualify": 100,

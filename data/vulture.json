@@ -1,8 +1,9 @@
 {
 	"id": 100155341,
 	"name": "Vulture",
-	"author": "sqrtpie",
-	"creators": [],
+	"creators": [
+		"sqrtpie"
+	],
 	"verifier": "sqrtpie",
 	"verification": "https://www.youtube.com/watch?v=LZO19rVfQzA",
 	"percentToQualify": 100,
@@ -81,6 +82,13 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/7fPCMgX98h0",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false
 		},
 		{
 			"user": "rastuyas",

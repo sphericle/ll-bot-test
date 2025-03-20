@@ -1,8 +1,9 @@
 {
 	"id": 97052017,
 	"name": "Paint The Town Red",
-	"author": "Raezori",
-	"creators": [],
+	"creators": [
+		"Raezori"
+	],
 	"verifier": "Raezori",
 	"verification": "https://youtu.be/E8DJpV8uAY4",
 	"percentToQualify": 100,
@@ -141,6 +142,27 @@
 			"hz": 144,
 			"mobile": false,
 			"enjoyment": "?"
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/hAGhgAoR7L0",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/shorts/lh60RV4QYeE",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 2
+		},
+		{
+			"user": "SuperGabMaker",
+			"link": "https://youtu.be/rbtJ_qo9zs8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

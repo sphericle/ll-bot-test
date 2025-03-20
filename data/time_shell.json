@@ -1,8 +1,9 @@
 {
 	"id": 82253131,
 	"name": "Time Shell ⭐",
-	"author": "Adiale",
-	"creators": [],
+	"creators": [
+		"Adiale"
+	],
 	"verifier": "Adiale",
 	"verification": "https://youtu.be/kIPRH7xp3z4?si=cgkqM-HS8eI5NnyQ",
 	"percentToQualify": 100,
@@ -344,6 +345,35 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 1
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/HUvyP_IMI3M",
+			"percent": 100,
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "Salukis",
+			"link": "https://youtu.be/D_xH54JtpXo",
+			"percent": 100,
+			"hz": 144,
+			"enjoyment": 6
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 9
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/474IkL7h3vU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }

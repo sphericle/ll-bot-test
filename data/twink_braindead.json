@@ -1,8 +1,9 @@
 {
 	"id": 96002642,
 	"name": "Twink Braindead",
-	"author": "morsey",
-	"creators": [],
+	"creators": [
+		"morsey"
+	],
 	"verifier": "Syrcx",
 	"verification": "https://youtu.be/mfRXUas2DHg",
 	"percentToQualify": 100,
@@ -154,6 +155,13 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 0
+		},
+		{
+			"user": "Hydraniac",
+			"link": "https://medal.tv/games/geometry-dash/clips/jyI4coeRoaNHE6h5b?invite=cr-MSxUVFEsMTg1OTcxMTAwLA",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
 		}
 	]
 }

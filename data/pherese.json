@@ -1,8 +1,9 @@
 {
 	"id": 103146558,
 	"name": "Pherese",
-	"author": "Hydraniac",
-	"creators": [],
+	"creators": [
+		"Hydraniac"
+	],
 	"verifier": "Hydraniac",
 	"verification": "https://youtu.be/31cqL9lQhJk?si=fHYzdeNxg4-kLPg4",
 	"percentToQualify": 49,

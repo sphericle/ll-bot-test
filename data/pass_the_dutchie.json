@@ -1,8 +1,9 @@
 {
 	"id": 95984645,
 	"name": "pass the dutchie",
-	"author": "monthmai",
-	"creators": [],
+	"creators": [
+		"monthmai"
+	],
 	"verifier": "monthmai",
 	"verification": "https://youtu.be/dncYzhHvxgE?si=FAPsgeBCFx0yyaOh",
 	"percentToQualify": 62,

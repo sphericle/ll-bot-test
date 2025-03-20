@@ -1,8 +1,9 @@
 {
 	"id": 109586957,
 	"name": "Legends Never Die",
-	"author": "Shums",
-	"creators": [],
+	"creators": [
+		"Shums"
+	],
 	"verifier": "Shums",
 	"verification": "https://www.youtube.com/watch?v=G53haTzwsMQ",
 	"percentToQualify": 100,
@@ -80,6 +81,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 6
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/Gf8_WUwol0M",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
 		}
 	]
 }

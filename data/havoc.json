@@ -1,8 +1,9 @@
 {
 	"id": 61737998,
 	"name": "Havoc ⭐",
-	"author": "Pocke",
-	"creators": [],
+	"creators": [
+		"Pocke"
+	],
 	"verifier": "Pocke",
 	"verification": "https://youtu.be/NXs9lMwQ4N0",
 	"percentToQualify": 100,
@@ -63,6 +64,13 @@
 			"link": "https://youtu.be/a1eLX7kwfv0",
 			"percent": 100,
 			"hz": 60,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/fBfAJjw0NjQ",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{

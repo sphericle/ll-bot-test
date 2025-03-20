@@ -1,8 +1,9 @@
 {
 	"id": 76300077,
 	"name": "Polaris",
-	"author": "EmeraldOre",
-	"creators": [],
+	"creators": [
+		"EmeraldOre"
+	],
 	"verifier": "EmeraldOre",
 	"verification": "https://youtu.be/z6g_8yntLaU",
 	"percentToQualify": 100,
@@ -254,6 +255,13 @@
 			"mobile": false
 		},
 		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Jb2cdCuxlh0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
+		},
+		{
 			"user": "evil",
 			"link": "https://youtu.be/0LKWZAmDY48",
 			"percent": 100,
@@ -463,6 +471,20 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false,
+			"enjoyment": 8
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 3
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/474IkL7h3vU",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 8
 		}
 	]

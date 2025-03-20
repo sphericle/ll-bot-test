@@ -1,8 +1,9 @@
 {
 	"id": 82230672,
 	"name": "Dancing in the Dark",
-	"author": "Astraa",
-	"creators": [],
+	"creators": [
+		"Astraa"
+	],
 	"verifier": "Astraa",
 	"verification": "https://youtu.be/6TOQEGsiZwI",
 	"showcase": "https://www.youtube.com/watch?v=LurCKxccGAM&t=109s&ab_channel=LayoutListShowcases",

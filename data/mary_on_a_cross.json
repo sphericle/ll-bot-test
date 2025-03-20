@@ -1,8 +1,9 @@
 {
 	"id": 104754794,
 	"name": "Mary On A Cross",
-	"author": "rSnoozy",
-	"creators": [],
+	"creators": [
+		"rSnoozy"
+	],
 	"verifier": "Fawami",
 	"verification": "https://youtu.be/O6158mOtrQo?feature=shared",
 	"percentToQualify": 55,
@@ -89,6 +90,28 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 9
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://truthsocial.com/@PokeZach/posts/113822187406297922",
+			"percent": 72,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "sn0w",
+			"link": "https://youtu.be/zqgc-WWiUeI",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/jWAr1qdyD40",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 8
 		}
 	]
 }

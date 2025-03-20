@@ -1,8 +1,9 @@
 {
 	"id": 69306762,
 	"name": "Mayday",
-	"author": "Chromanical",
-	"creators": [],
+	"creators": [
+		"Chromanical"
+	],
 	"verifier": "Chromanical",
 	"verification": "https://youtu.be/YyR0GohEcxU",
 	"showcase": "https://www.youtube.com/watch?v=LsQ2QijUv9M&ab_channel=LayoutListShowcases",
@@ -349,6 +350,20 @@
 			"hz": 360,
 			"mobile": false,
 			"enjoyment": 8
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/1wFCTovPf-4?si=mOrEQ-c1KcKUNtPe",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 6
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
 		}
 	]
 }

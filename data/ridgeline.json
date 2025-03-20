@@ -1,0 +1,53 @@
+{
+	"id": 114425292,
+	"name": "Ridgeline",
+	"creators": [
+		"Salukis"
+	],
+	"verifier": "Salukis",
+	"verification": "https://youtu.be/Akde_EvbpcU?si=F8upKDQZrb3H6EWX",
+	"percentToQualify": 100,
+	"password": "Free to copy",
+	"difficulty": 0,
+	"song": "Creo - Drift",
+	"records": [
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/5LmgOq8TZZw?si=CUVAmFbrr8wLmke-",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Zyxo",
+			"link": "https://youtu.be/mN4ak4_AhQI",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 10
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/QIUI9GG1vFM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 8
+		},
+		{
+			"user": "RaynoXx",
+			"link": "https://youtu.be/J1t5f31ib-Q",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		}
+	]
+}

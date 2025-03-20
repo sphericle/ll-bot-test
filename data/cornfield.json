@@ -1,8 +1,9 @@
 {
 	"id": 83210021,
 	"name": "Cornfield",
-	"author": "Salukis",
-	"creators": [],
+	"creators": [
+		"Salukis"
+	],
 	"verifier": "Salukis",
 	"verification": "https://youtu.be/McjD_jXUkJ4",
 	"percentToQualify": 100,
@@ -163,6 +164,13 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": true
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/Jb2cdCuxlh0",
+			"percent": 100,
+			"hz": 360,
+			"mobile": false
 		},
 		{
 			"user": "Bibox",
@@ -529,6 +537,43 @@
 			"hz": 60,
 			"mobile": true,
 			"enjoyment": 7
+		},
+		{
+			"user": "orang cat",
+			"link": "https://www.youtube.com/watch?v=Jij_el9X80Q&ab_channel=emberkz",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 9
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/1yHzQ_HQYXk",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
+		},
+		{
+			"user": "ItsMrFancy",
+			"link": "https://youtu.be/3rlQRsfr1yc",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10,
+			"mobile": true
+		},
+		{
+			"user": "Ripper0300",
+			"link": "https://youtu.be/mbelISceHD8?si=z0Sb9Nc7zzMyTw4i",
+			"percent": 100,
+			"hz": 80,
+			"enjoyment": 8,
+			"mobile": true
 		}
 	]
 }

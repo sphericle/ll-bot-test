@@ -1,8 +1,9 @@
 {
 	"id": 89034546,
 	"name": "Hammer Layout",
-	"author": "Natteboss",
-	"creators": [],
+	"creators": [
+		"Natteboss"
+	],
 	"verifier": "Natteboss",
 	"verification": "https://youtu.be/FH0VH4eEox4",
 	"percentToQualify": 100,
@@ -82,6 +83,21 @@
 			"percent": 100,
 			"hz": 360,
 			"mobile": false,
+			"enjoyment": 7
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/2snibKy_ZrQ?si=HFSCGb4XuSrsCgWy",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "cinderrblock",
+			"link": "https://youtu.be/FfeIRmsVl84",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 7
 		}
 	]

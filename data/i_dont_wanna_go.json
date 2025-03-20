@@ -1,8 +1,8 @@
 {
 	"id": 65949625,
 	"name": "I Dont Wanna Go ⭐",
-	"author": "ZeroSR",
 	"creators": [
+		"ZeroSR",
 		"Convie"
 	],
 	"verifier": "ZeroSR",
@@ -229,6 +229,14 @@
 			"percent": 100,
 			"hz": 240,
 			"mobile": false
+		},
+		{
+			"user": "Poke Zach",
+			"link": "https://youtu.be/kYxzOGBsm34?si=iRuMGO4-VEKuds3M",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 7,
+			"mobile": true
 		}
 	]
 }

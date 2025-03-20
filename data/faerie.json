@@ -1,8 +1,9 @@
 {
 	"id": 67109264,
 	"name": "Faerie ✨",
-	"author": "ARtu",
-	"creators": [],
+	"creators": [
+		"ARtu"
+	],
 	"verifier": "ARtu",
 	"verification": "https://youtu.be/70pqDSgfphs",
 	"percentToQualify": 100,

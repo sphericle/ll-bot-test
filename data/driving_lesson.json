@@ -1,8 +1,8 @@
 {
 	"id": 106809721,
 	"name": "DRIVING LESSON",
-	"author": "Tanginess",
 	"creators": [
+		"Tanginess",
 		"Asteria."
 	],
 	"verifier": "Asteria.",
@@ -81,6 +81,14 @@
 			"link": "https://youtu.be/d4ohG3lcib4",
 			"percent": 100,
 			"hz": 120,
+			"mobile": false,
+			"enjoyment": 10
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/FaPxpBLuXXE",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false,
 			"enjoyment": 10
 		},
@@ -169,6 +177,28 @@
 			"percent": 100,
 			"hz": 60,
 			"mobile": false,
+			"enjoyment": 6
+		},
+		{
+			"user": "ThisGuyKreas",
+			"link": "https://youtu.be/-PJFOgRoGcU",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 9,
+			"mobile": true
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 7
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/zeLM8lg6EUE?si=_i3lM8-gmxM6zGY0",
+			"percent": 100,
+			"hz": 240,
 			"enjoyment": 6
 		}
 	]

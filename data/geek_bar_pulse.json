@@ -1,8 +1,9 @@
 {
-	"id": 111309990,
-	"name": "Geek Bar Pulse",
-	"author": "Tinkle",
-	"creators": [],
+	"id": 112950784,
+	"name": "GeekBarPulse",
+	"creators": [
+		"Tinkle"
+	],
 	"verifier": "Tinkle",
 	"verification": "https://youtu.be/bkMywnl9e4c?si=an8F4U8ldv0M8PpP",
 	"percentToQualify": 57,
@@ -31,6 +32,20 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 10
+		},
+		{
+			"user": "Catchit27",
+			"link": "https://youtu.be/RyVNog2tvOE",
+			"percent": 100,
+			"hz": 360,
+			"enjoyment": 10
+		},
+		{
+			"user": "Hyperbeat",
+			"link": "https://youtu.be/AcXjj7YA0SU",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 9
 		}
 	]
 }

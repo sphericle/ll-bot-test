@@ -1,8 +1,9 @@
 {
 	"id": 74425935,
 	"name": "Aura",
-	"author": "Sal752",
-	"creators": [],
+	"creators": [
+		"Sal752"
+	],
 	"verifier": "Sal752",
 	"verification": "https://youtu.be/GbfYtYDhBr0",
 	"percentToQualify": 56,

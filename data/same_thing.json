@@ -1,8 +1,9 @@
 {
 	"id": 102030772,
 	"name": "SAME THING",
-	"author": "zCriox",
-	"creators": [],
+	"creators": [
+		"zCriox"
+	],
 	"verifier": "zCriox",
 	"verification": "https://www.youtube.com/watch?v=3Ez4uE0Euwo",
 	"percentToQualify": 100,
@@ -86,6 +87,21 @@
 			"percent": 100,
 			"hz": 360,
 			"enjoyment": 9
+		},
+		{
+			"user": "Blysteryx",
+			"link": "https://youtu.be/QIUI9GG1vFM",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 8,
+			"mobile": true
+		},
+		{
+			"user": "nirek",
+			"link": "https://youtu.be/4R5MYEHmBeQ?si=cTYRV2s0vgOByBZ8",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 4
 		}
 	]
 }

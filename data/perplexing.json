@@ -1,8 +1,9 @@
 {
 	"id": 94704025,
 	"name": "Perplexing",
-	"author": "Xeronius",
-	"creators": [],
+	"creators": [
+		"Xeronius"
+	],
 	"verifier": "Xeronius",
 	"verification": "https://www.youtube.com/watch?v=JyoaejrVU48",
 	"percentToQualify": 100,
@@ -59,6 +60,13 @@
 			"link": "https://youtu.be/4n7RhWLJuMI",
 			"percent": 100,
 			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/YHlC3F4HjxM",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{
@@ -198,6 +206,13 @@
 			"link": "https://www.youtube.com/watch?v=xTc9qOo5v0Q&ab_channel=emberkz",
 			"percent": 100,
 			"hz": 360,
+			"enjoyment": 6
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/DjjV6HwZlS8",
+			"percent": 100,
+			"hz": 75,
 			"enjoyment": 6
 		}
 	]

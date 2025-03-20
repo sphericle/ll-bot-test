@@ -1,8 +1,9 @@
 {
 	"id": 95021886,
 	"name": "Koozoo2k challenge",
-	"author": "BLOEM",
-	"creators": [],
+	"creators": [
+		"BLOEM"
+	],
 	"verifier": "BLOEM",
 	"verification": "https://youtu.be/w16YlbVHS4U",
 	"percentToQualify": 100,
@@ -62,6 +63,13 @@
 			"link": "https://youtu.be/RGIN8MjDUIs",
 			"percent": 100,
 			"hz": 360,
+			"mobile": false
+		},
+		{
+			"user": "sphericle",
+			"link": "https://youtu.be/YHlC3F4HjxM",
+			"percent": 100,
+			"hz": 240,
 			"mobile": false
 		},
 		{
@@ -240,6 +248,27 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
+		},
+		{
+			"user": "Trekkino",
+			"link": "https://youtu.be/b9M7nWYJdfU",
+			"percent": 100,
+			"hz": 75,
+			"enjoyment": 10
+		},
+		{
+			"user": "Toop7",
+			"link": "https://youtu.be/HUw27qemmXg",
+			"percent": 100,
+			"hz": 120,
+			"enjoyment": 10
+		},
+		{
+			"user": "Jarzst",
+			"link": "https://youtu.be/icnahLI9Ivs",
+			"percent": 100,
+			"hz": 240,
+			"enjoyment": 7
 		}
 	]
 }

@@ -1,8 +1,9 @@
 {
 	"id": 96482483,
 	"name": "Glorious Bastion",
-	"author": "Blysteryx",
-	"creators": [],
+	"creators": [
+		"Blysteryx"
+	],
 	"verifier": "Blysteryx",
 	"verification": "https://youtu.be/Jq2paWFKwUY?si=OQoANJB869xnWHXJ",
 	"percentToQualify": 54,

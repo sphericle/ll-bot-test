@@ -1,8 +1,8 @@
 {
 	"id": 63471387,
 	"name": "Karma ⭐",
-	"author": "ARtu",
 	"creators": [
+		"ARtu",
 		"Marwec"
 	],
 	"verifier": "ARtu",
@@ -356,6 +356,13 @@
 			"percent": 100,
 			"hz": 240,
 			"enjoyment": 7
+		},
+		{
+			"user": "Vink",
+			"link": "https://youtu.be/9bAuUaflDvg",
+			"percent": 100,
+			"hz": 60,
+			"enjoyment": 10
 		}
 	]
 }
