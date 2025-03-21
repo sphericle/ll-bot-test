@@ -349,5 +349,14 @@
 		"from_rank": null,
 		"above": "huang_quan",
 		"below": "go_beyond_nerf"
+	},
+	{
+		"date": 1742599425,
+		"action": "placed",
+		"name": "achelous",
+		"to_rank": 1,
+		"from_rank": null,
+		"above": "achelous",
+		"below": null
 	}
 ]
