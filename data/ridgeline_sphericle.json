@@ -1,12 +1,21 @@
 {
 	"id": 190232,
 	"name": "ridgeline",
-	"creators": ["sphericle"],
+	"creators": [
+		"sphericle"
+	],
 	"verifier": "sphericle",
 	"verification": "https://youtube.com",
 	"percentToQualify": 100,
 	"password": "Free to copy",
 	"difficulty": 0,
 	"song": "slkdjfsdf",
-	"records": []
+	"records": [
+		{
+			"user": "sphericle",
+			"link": "https://youtube.com",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
