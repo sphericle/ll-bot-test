@@ -56,13 +56,6 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 5
-		},
-		{
-			"user": "sphericle",
-			"link": "https://youtube.com",
-			"percent": 100,
-			"hz": 240,
-			"mobile": false
 		}
 	]
 }
