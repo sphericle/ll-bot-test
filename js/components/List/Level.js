@@ -33,8 +33,8 @@ export default {
                 <h1 class="copy-name">
                     {{ level.name }}
                 </h1>
-                <Copy v-if="!copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
-                <Copied v-if="copied" @click="copyURL('https://laylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
+                <Copy v-if="!copied" @click="copyURL('https://anylist.pages.dev/#/level/' + level.path); copied = true"></Copy>
+                <Copied v-if="copied" @click="copyURL('https://anylist.pages.dev/#/level/' + level.path); copied = true"></Copied>
             </div>
             <Packs :packs="level.packs" v-show="!fromPacksPage" v-if="level.packs.length > 1 || level.packs.length !== 0 && level.packs[0].levels" />
             <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>

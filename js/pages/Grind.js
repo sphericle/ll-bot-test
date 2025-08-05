@@ -104,7 +104,7 @@ export default {
                                                 <p class="director" @click="hovered = null; hovered = i" v-if="!(completed.levels?.some((completedLevel) => level.path === completedLevel.path))">More info</p>
                                             </div>
                                         </div>
-                                        <h2><a class="director" :href="'https://laylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
+                                        <h2><a class="director" :href="'https://anylist.pages.dev/#/level/' + level.path" target="_blank">{{ level.name }}</a></h2>
                                         <div>
                                             <div style="display: inline-block; width: 50%;">
                                                 <p class="director" style="cursor: pointer" @click="copyURL(level.id)">{{ level.id }}</p>

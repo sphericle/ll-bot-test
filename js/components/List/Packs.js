@@ -10,7 +10,7 @@ export default {
     },
     template: `
         <div class="pack-container">
-            <a class="pack" v-for="pack in packs" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://laylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
+            <a class="pack" v-for="pack in packs" :style="{ 'background': rgbaBind(packColor(pack.difficulty), 0.2), 'display': !pack.levels ? 'none' : 'inherit' }" :href="'https://anylist.pages.dev/#/packs/pack/' + pack.name.toLowerCase().replaceAll(' ', '_')">{{ pack.name }}</a>
         </div>
     `,
     methods: {
