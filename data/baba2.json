@@ -10,5 +10,13 @@
     "song": "some undertale song ill update later",
     "difficulty": 9,
     "enjoyment": 10,
-    "records": []
+    "records": [
+        {
+            "user": "Ragequit",
+            "link": "https://youtu.be/1gA41-jvXvk?t=720",
+            "percent": 100,
+            "hz": 240,
+            "mobile": false
+        }
+    ]
 }
