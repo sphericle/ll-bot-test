@@ -15,5 +15,14 @@
 		"levels": [
 			"kpr"
 		]
+	},
+
+	{
+		"name": "Top 3 Platformer pack",
+		"difficulty": 7,
+		"levels": [
+			"500carrots",
+			"baba2"
+		]
 	}
 ]
