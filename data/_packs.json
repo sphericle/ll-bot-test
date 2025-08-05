@@ -6,5 +6,13 @@
 			"kpr",
 			"apotheosis"
 		]
+	},
+
+	{
+		"name": "Esten pack",
+		"difficulty": 6,
+		"levels": [
+			"kpr"
+		]
 	}
 ]
