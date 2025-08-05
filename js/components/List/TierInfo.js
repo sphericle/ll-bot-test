@@ -27,7 +27,7 @@ export default {
             <tr style="justify-content: center; align-items: center;">
                 <td><h3 class="tier-info" style="padding-bottom:0.5rem">Lowest enjoyment: {{ fetchLowestEnjoyment(list, level.difficulty) }}</h3></td>
             </tr>
-            <p style="padding-top:1.5rem">The levels {{ descending ? 'below' : 'above' }} are {{ ["beginner", "easy", "medium", "hard", "insane", "mythical", "extreme", "supreme", "ethereal", "legendary", "silent", "impossible"][level.difficulty] }} layouts.</p>
+            <p style="padding-top:1.5rem">The levels {{ descending ? 'below' : 'above' }} are {{ ["platformer"][level.difficulty] }} layouts.</p>
 
             <h3 v-if="level.difficulty > 5" style="padding-top:1.5rem"><a class="director" href="https://docs.google.com/spreadsheets/d/1tgwlKJpFMC2lEK8XjFPyKGP1-JJ0z2t6GsvCyojEeCw/">sn0w's extreme spreadsheet</a></h3>
         </div>
