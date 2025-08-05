@@ -3,5 +3,16 @@
         "role": "owner",
         "name": "Silentium",
         "link": "https://www.youtube.com/@silentiumgd"
-    }
+    },
+
+    {
+        "role": "Helper",
+        "name": "ac07",
+        "link": "https://www.youtube.com/channel/UCM3oAdCj2G801jtIxzFDbgQ"
+    },
+
+        {
+            "role": "Helper",
+            "name": "Ragequit"
+        }
 ]
