@@ -123,7 +123,7 @@ export default {
                                         <ul class="extra-stats">
                                             <li>
                                                 <div class="type-title-sm">Points</div>
-                                                <p>{{ score(level.rank, level.difficulty, 100, level.percentToQualify, list) }}</p>
+                                                <p>{{ score(level.rank, 100, level.percentToQualify) }}</p>
                                             </li>
                                             <li>
                                                 <div class="type-title-sm">List%</div>
@@ -291,7 +291,7 @@ export default {
             this.completed.levels.push({
                 path: path,
                 name: level.name,
-                pts: score(level.rank, level.difficulty, this.typedValues[path].percent, level.percentToQualify, this.list),
+                pts: score(level.rank, this.typedValues[path].percent, level.percentToQualify),
                 ...this.typedValues[path]
             })
 

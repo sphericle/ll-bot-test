@@ -22,6 +22,4 @@ export default [
 
     { path: "/packs", component: Packs },
     { path: "/packs/pack/:pack", component: Packs },
-
-    { path: "/grind", component: Grind },
 ];
