@@ -145,12 +145,6 @@
 			"hz": 240,
 			"mobile": false,
 			"enjoyment": 8
-		},
-		{
-			"user": "Skip",
-			"link": "https://youtube.com/skip",
-			"percent": 100,
-			"hz": 240
 		}
 	]
 }
