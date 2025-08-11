@@ -147,10 +147,12 @@
 			"enjoyment": 8
 		},
 		{
-			"user": "Skip",
-			"link": "https://youtube.com/skip",
+			"user": "sphericle",
+			"link": "https://youtube.com/sphericle",
 			"percent": 100,
-			"hz": 240
+			"hz": 240,
+			"mobile": false,
+			"enjoyment": 10
 		}
 	]
 }
