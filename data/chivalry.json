@@ -17,5 +17,12 @@
 	"difficulty": 9,
 	"song": "DuoCore - Dignity",
 	"enjoyment": 8,
-	"records": []
+	"records": [
+		{
+			"user": "sphericle_",
+			"link": "https://youtube.com",
+			"percent": 100,
+			"hz": 240
+		}
+	]
 }
