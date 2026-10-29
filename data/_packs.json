@@ -1,5 +1,13 @@
 [
 	{
+		"name": "test",
+		"difficulty": 0,
+		"levels": [
+			"so_cool",
+			"fun_dance"
+		]
+	},
+	{
 		"name": "Kreas Pack",
 		"difficulty": 2,
 		"levels": [
