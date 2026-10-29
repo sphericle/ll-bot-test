@@ -1735,5 +1735,14 @@
 		"from_rank": null,
 		"above": "fallen_skies",
 		"below": null
+	},
+	{
+		"date": 1793239337,
+		"action": "lowered",
+		"name": "test",
+		"to_rank": 5,
+		"from_rank": 1,
+		"above": "dying_star",
+		"below": "achelous"
 	}
 ]
